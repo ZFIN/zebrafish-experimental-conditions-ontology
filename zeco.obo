@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 22:07:2016 09:53
-saved-by: Ceri
-auto-generated-by: OBO-Edit 2.1
+date: 07:26:2016 09:21
+saved-by: ybradford
+auto-generated-by: OBO-Edit 2.3
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 default-namespace: zebrafish_experimental_conditions_ontology
 ontology: zeco
@@ -9,6 +9,7 @@ ontology: zeco
 [Term]
 id: ZECO:0000100
 name: conditions
+def: "The state in which an organism exists. " []
 
 [Term]
 id: ZECO:0000101
@@ -26,7 +27,7 @@ is_a: ZECO:0000101 ! control conditions
 [Term]
 id: ZECO:0000103
 name: standard conditions
-def: "Experimental condition that is the standard environment for zebrafish husbandry, as described in 'The Zebrafish Book'. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark." []
+def: "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark." []
 is_a: ZECO:0000100 ! conditions
 
 [Term]
@@ -140,7 +141,7 @@ is_a: ZECO:0000117 ! food content
 [Term]
 id: ZECO:0000122
 name: high fat
-def: "Fat content condition in which the amount of fat in the diet is elevated compared to standard diet conditions." []
+def: "Fat content condition in which the amount of fat in the diet is elevated." []
 is_a: ZECO:0000121 ! fat content
 
 [Term]
@@ -158,7 +159,7 @@ is_a: ZECO:0000122 ! high fat
 [Term]
 id: ZECO:0000125
 name: low fat
-def: "Fat content condition in which the amount of fat in the diet is reduced compared to standard diet conditions." []
+def: "Fat content condition in which the amount of fat in the diet is reduced." []
 is_a: ZECO:0000121 ! fat content
 
 [Term]
@@ -182,7 +183,7 @@ is_a: ZECO:0000117 ! food content
 [Term]
 id: ZECO:0000129
 name: high protein
-def: "Protein content condition in which the protein in the diet is increased." []
+def: "Protein content condition in which the protein in the diet is elevated." []
 is_a: ZECO:0000128 ! protein content
 
 [Term]
@@ -199,73 +200,85 @@ is_a: ZECO:0000104 ! experimental conditions
 [Term]
 id: ZECO:0000132
 name: high sugar
+def: "High carbohydrate conditions in which the amount of sugar in the diet is elevated." []
 is_a: ZECO:0000241 ! high carbohydrate
 
 [Term]
 id: ZECO:0000133
 name: high fructose
+def: "High sugar condition in which the amount of fructose in the diet is elevated." []
 is_a: ZECO:0000132 ! high sugar
 
 [Term]
 id: ZECO:0000134
 name: high glucose
+def: "High sugar condition in which the amount of glucose in the diet is elevated." []
 is_a: ZECO:0000132 ! high sugar
 
 [Term]
 id: ZECO:0000135
 name: high sucrose
+def: "High sugar condition in which the amount of sucrose in the diet is elevated." []
 is_a: ZECO:0000132 ! high sugar
 
 [Term]
 id: ZECO:0000136
 name: low sugar
+def: "High carbohydrate conditions in which the amount of sugar in the diet is reduced." []
 is_a: ZECO:0000242 ! low carbohydrate
 
 [Term]
 id: ZECO:0000137
 name: low sucrose
+def: "Low sugar condition in which the amount of sucrose in the diet is reduced." []
 is_a: ZECO:0000136 ! low sugar
 
 [Term]
 id: ZECO:0000138
 name: low fructose
+def: "Low sugar condition in which the amount of fructose in the diet is reduced." []
 is_a: ZECO:0000136 ! low sugar
 
 [Term]
 id: ZECO:0000139
-name: high glucose
+name: low glucose
+def: "Low sugar condition in which the amount of glucose in the diet is reduced." []
 is_a: ZECO:0000136 ! low sugar
 
 [Term]
 id: ZECO:0000140
 name: housing conditions
+def: "Experimental condition that manipulates the enclosure of the fish." []
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000141
 name: open roofed
+def: "Housing condition in which the roof of the enclosure if open." []
 is_a: ZECO:0000140 ! housing conditions
 
 [Term]
 id: ZECO:0000142
 name: overcrowding
+def: "Housing condition in which the enclosure of the fish is overcrowded or contains an excess of fish or obstacles that reduce the available space of the enclosure. " []
 is_a: ZECO:0000140 ! housing conditions
 
 [Term]
 id: ZECO:0000143
 name: in vitro culture
+def: "Experimental condition in which components of the fish have been removed and are maintained separately." []
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000144
 name: organ culture
-def: "Experimental condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture." []
+def: "In vitro culture condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture." []
 is_a: ZECO:0000143 ! in vitro culture
 
 [Term]
 id: ZECO:0000145
 name: primary cell culture
-def: "Experimental condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture." []
+def: "In vitro culture condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture." []
 is_a: ZECO:0000143 ! in vitro culture
 
 [Term]
@@ -668,18 +681,19 @@ is_a: ZECO:0000217 ! particle radiation
 [Term]
 id: ZECO:0000222
 name: electromagnetic field
-def: "Experimental condition in which the zebrafish is exposed to a physical field that is produced by electrically charged objects." []
+def: "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects." []
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000223
 name: electric field
+def: "Experimental condition where the fish is exposed to materials that produce an electric field." []
 is_a: ZECO:0000222 ! electromagnetic field
 
 [Term]
 id: ZECO:0000224
 name: magnetic field
-def: "Experimental condition where the zebrafish is exposed to magnetic materials." []
+def: "Experimental condition where the fish is exposed to magnetic materials." []
 is_a: ZECO:0000222 ! electromagnetic field
 
 [Term]
@@ -715,7 +729,7 @@ is_a: ZECO:0000104 ! experimental conditions
 [Term]
 id: ZECO:0000230
 name: bacterial treatment by injection
-def: "Bacterial treatment where the bacteria are injected into the zebrafish." []
+def: "Bacterial treatment where the bacteria are injected into the fish." []
 is_a: ZECO:0000106 ! bacterial treatment
 
 [Term]
@@ -727,7 +741,7 @@ is_a: ZECO:0000106 ! bacterial treatment
 [Term]
 id: ZECO:0000232
 name: fungal treatment by injection
-def: "Fungal treatment where the fungus is injected into the zebrafish." []
+def: "Fungal treatment where the fungus is injected into the fish." []
 is_a: ZECO:0000107 ! fungal treatment
 
 [Term]
@@ -745,7 +759,7 @@ is_a: ZECO:0000110 ! viral treatment
 [Term]
 id: ZECO:0000235
 name: viral treatment by injection
-def: "Viral treatment where the virus is injected into the zebrafish." []
+def: "Viral treatment where the virus is injected into the fish." []
 is_a: ZECO:0000110 ! viral treatment
 
 [Term]
@@ -776,16 +790,19 @@ is_a: ZECO:0000112 ! diet
 [Term]
 id: ZECO:0000240
 name: carbohydrate content
+def: "Food content condition in which the amount of carbohydrate in the diet is manipulated." []
 is_a: ZECO:0000117 ! food content
 
 [Term]
 id: ZECO:0000241
 name: high carbohydrate
+def: "Food content condtion in which the amount of carbohydrate in the diet is elevated." []
 is_a: ZECO:0000240 ! carbohydrate content
 
 [Term]
 id: ZECO:0000242
 name: low carbohydrate
+def: "Food content condtion in which the amount of carbohydrate in the diet is reduced." []
 is_a: ZECO:0000240 ! carbohydrate content
 
 [Term]
@@ -823,7 +840,7 @@ creation_date: 2014-03-07T11:32:23Z
 [Typedef]
 id: part_of
 name: part_of
-namespace: zebrafish experimental conditions ontology
+namespace: zebrafish experimental conditions ontology 
 xref: BFO:0000050
 is_transitive: true
 

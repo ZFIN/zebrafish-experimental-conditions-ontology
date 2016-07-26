@@ -15,17 +15,17 @@
 
 <rdf:RDF xmlns="/&obo;zeco.owl#"
      xml:base="/&obo;zeco.owl"
-     xmlns:ubprop="&obo;ubprop#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ubprop="&obo;ubprop#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="&obo;zeco.owl">
-        <oboInOwl:date rdf:datatype="&xsd;string">06:10:2016 15:21</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="&xsd;string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:date rdf:datatype="&xsd;dateTimeStamp">26:07:2016 09:21</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="&xsd;string">OBO-Edit 2.3</oboInOwl:auto-generated-by>
         <oboInOwl:saved-by rdf:datatype="&xsd;string">ybradford</oboInOwl:saved-by>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">zebrafish_experimental_conditions_ontology</oboInOwl:default-namespace>
@@ -41,143 +41,54 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0100001">
-        <rdfs:label rdf:datatype="&xsd;string">term replaced by</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ubprop#_upper_level -->
-
     <owl:AnnotationProperty rdf:about="&obo;ubprop#_upper_level">
         <rdfs:comment rdf:datatype="&xsd;string">abstract upper-level terms not directly useful for analysis</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/license -->
-
-    <owl:AnnotationProperty rdf:about="&dc;license"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;SubsetProperty"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;auto-generated-by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;consider">
-        <rdfs:label rdf:datatype="&xsd;string">consider</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
-
     <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;date"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;default-namespace"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
-        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
-        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
-
+    <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand"/>
+    <owl:AnnotationProperty rdf:about="&dc;license"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBOFormatVersion">
         <rdfs:label rdf:datatype="&xsd;string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
+    <owl:AnnotationProperty rdf:about="&oboInOwl;auto-generated-by"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;default-namespace"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0100001">
+        <rdfs:label rdf:datatype="&xsd;string">term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;saved-by"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;date"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
         <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
+    <owl:AnnotationProperty rdf:about="&oboInOwl;consider">
+        <rdfs:label rdf:datatype="&xsd;string">consider</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;SubsetProperty"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;saved-by"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
-
-    <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
     
 
 
@@ -198,8 +109,8 @@
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
         <rdfs:label rdf:datatype="&xsd;string">part_of</rdfs:label>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BFO:0000050</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">part_of</oboInOwl:shorthand>
         <oboInOwl:id rdf:datatype="&xsd;string">part_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">part_of</oboInOwl:shorthand>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">zebrafish experimental conditions ontology </oboInOwl:hasOBONamespace>
     </owl:ObjectProperty>
     
@@ -212,8 +123,8 @@
         <rdfs:label rdf:datatype="&xsd;string">has_part</rdfs:label>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2014-03-07T11:32:23Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BFO:0000051</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_part</oboInOwl:shorthand>
         <oboInOwl:id rdf:datatype="&xsd;string">has_part</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_part</oboInOwl:shorthand>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">zebrafish experimental conditions ontology</oboInOwl:hasOBONamespace>
     </owl:ObjectProperty>
     
@@ -349,7 +260,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000111">
         <rdfs:label xml:lang="en">chemical treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
-        <obo:IAO_0000115>Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -459,7 +370,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000122">
         <rdfs:label xml:lang="en">high fat</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000121"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fat content condition in which the amount of fat in the diet is elevated compared to standard diet conditions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fat content condition in which the amount of fat in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -489,7 +400,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000125">
         <rdfs:label xml:lang="en">low fat</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000121"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fat content condition in which the amount of fat in the diet is reduced compared to standard diet conditions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fat content condition in which the amount of fat in the diet is reduced.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -529,7 +440,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000129">
         <rdfs:label xml:lang="en">high protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000128"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Protein content condition in which the protein in the diet is increased.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Protein content condition in which the protein in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -558,6 +469,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000132">
         <rdfs:label xml:lang="en">high sugar</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000241"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">High carbohydrate conditions in which the amount of sugar in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -567,6 +479,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000133">
         <rdfs:label xml:lang="en">high fructose</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000132"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">High sugar condition in which the amount of fructose in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -576,6 +489,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000134">
         <rdfs:label xml:lang="en">high glucose</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000132"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">High sugar condition in which the amount of glucose in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -585,6 +499,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000135">
         <rdfs:label xml:lang="en">high sucrose</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000132"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">High sugar condition in which the amount of sucrose in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -594,6 +509,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000136">
         <rdfs:label xml:lang="en">low sugar</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000242"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">High carbohydrate conditions in which the amount of sugar in the diet is reduced.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -603,6 +519,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000137">
         <rdfs:label xml:lang="en">low sucrose</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000136"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Low sugar condition in which the amount of sucrose in the diet is reduced.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -612,6 +529,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000138">
         <rdfs:label xml:lang="en">low fructose</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000136"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Low sugar condition in which the amount of fructose in the diet is reduced.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -619,8 +537,9 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000139 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000139">
-        <rdfs:label xml:lang="en">high glucose</rdfs:label>
+        <rdfs:label xml:lang="en">low glucose</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000136"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Low sugar condition in which the amount of glucose in the diet is reduced.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -630,6 +549,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000140">
         <rdfs:label xml:lang="en">housing conditions</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Experimental condition that manipulates the enclosure of the fish.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -639,6 +559,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000141">
         <rdfs:label xml:lang="en">open roofed</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000140"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Housing condition in which the roof of the enclosure if open.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -648,6 +569,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000142">
         <rdfs:label xml:lang="en">overcrowding</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000140"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Housing condition in which the enclosure of the fish is overcrowded or contains an excess of fish or obstacles that reduce the available space of the enclosure. </obo:IAO_0000115>
     </owl:Class>
     
 
@@ -657,6 +579,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000143">
         <rdfs:label xml:lang="en">in vitro culture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Experimental condition in which components of the fish have been removed and are maintained separately.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -666,7 +589,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000144">
         <rdfs:label xml:lang="en">organ culture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000143"/>
-        <obo:IAO_0000115>Experimental condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">In vitro culture condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -676,7 +599,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000145">
         <rdfs:label xml:lang="en">primary cell culture</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000143"/>
-        <obo:IAO_0000115>Experimental condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">In vitro culture condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -935,7 +858,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000173">
         <rdfs:label xml:lang="en">vaccine treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000105"/>
-        <obo:IAO_0000115>Biological treatment in which the organism is treated with a substance to stimulate the production of antibodies and provide immunity against one or several diseases.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Biological treatment in which the organism is treated with a substance to stimulate the production of antibodies and provide immunity against one or several diseases.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1379,7 +1302,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000222">
         <rdfs:label xml:lang="en">electromagnetic field</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
-        <obo:IAO_0000115>Experimental condition in which the zebrafish is exposed to a physical field that is produced by electrically charged objects.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1389,6 +1312,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000223">
         <rdfs:label xml:lang="en">electric field</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000222"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Experimental condition where the fish is exposed to materials that produce an electric field.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1398,7 +1322,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000224">
         <rdfs:label xml:lang="en">magnetic field</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000222"/>
-        <obo:IAO_0000115>Experimental condition where the zebrafish is exposed to magnetic materials.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Experimental condition where the fish is exposed to magnetic materials.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1458,7 +1382,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000230">
         <rdfs:label xml:lang="en">bacterial treatment by injection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000106"/>
-        <obo:IAO_0000115>Bacterial treatment where the bacteria are injected into the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Bacterial treatment where the bacteria are injected into the fish.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1468,7 +1392,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000231">
         <rdfs:label xml:lang="en">bacterial treatment by exposure to environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000106"/>
-        <obo:IAO_0000115>Bacterial treatment where the bacteria are introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Bacterial treatment where the bacteria are introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1478,7 +1402,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000232">
         <rdfs:label xml:lang="en">fungal treatment by injection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000107"/>
-        <obo:IAO_0000115>Fungal treatment where the fungus is injected into the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fungal treatment where the fungus is injected into the fish.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1488,7 +1412,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000233">
         <rdfs:label xml:lang="en">fungal treatment by exposure to environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000107"/>
-        <obo:IAO_0000115>Fungal treatment where the fungus is introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fungal treatment where the fungus is introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1498,7 +1422,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000234">
         <rdfs:label xml:lang="en">viral treatment by exposure to environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000110"/>
-        <obo:IAO_0000115>Viral treatment where the virus is introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Viral treatment where the virus is introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1508,7 +1432,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000235">
         <rdfs:label xml:lang="en">viral treatment by injection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000110"/>
-        <obo:IAO_0000115>Viral treatment where the virus is injected into the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Viral treatment where the virus is injected into the fish.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1528,7 +1452,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000237">
         <rdfs:label xml:lang="en">chemical treatment by injection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000111"/>
-        <obo:IAO_0000115>Chemical treatment in which the chemical is injected into the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Chemical treatment in which the chemical is injected into the zebrafish.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1538,7 +1462,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000238">
         <rdfs:label xml:lang="en">chemical treatment by environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000111"/>
-        <obo:IAO_0000115>Chemical treatment condition in which the chemical is introduced through the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Chemical treatment condition in which the chemical is introduced through the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1549,7 +1473,7 @@
         <rdfs:label xml:lang="en">chemical treatment by diet</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000111"/>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000112"/>
-        <obo:IAO_0000115>Chemical treatment condition in which the chemical is introduced through the diet.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Chemical treatment condition in which the chemical is introduced through the diet.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1559,6 +1483,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000240">
         <rdfs:label xml:lang="en">carbohydrate content</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000117"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Food content condition in which the amount of carbohydrate in the diet is manipulated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1568,6 +1493,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000241">
         <rdfs:label xml:lang="en">high carbohydrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000240"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Food content condtion in which the amount of carbohydrate in the diet is elevated.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1577,6 +1503,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000242">
         <rdfs:label xml:lang="en">low carbohydrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000240"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Food content condtion in which the amount of carbohydrate in the diet is reduced.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1614,10 +1541,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100">
         <rdfs:label xml:lang="en">conditions</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The state in which an organism exists. </obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
 
