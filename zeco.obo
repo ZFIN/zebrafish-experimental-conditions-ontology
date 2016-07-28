@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:26:2016 09:21
+date: 28:07:2016 09:21
 saved-by: ybradford
 auto-generated-by: OBO-Edit 2.3
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
@@ -650,7 +650,7 @@ is_a: ZECO:0000209 ! electromagnetic radiation
 
 [Term]
 id: ZECO:0000216
-name: gama ray
+name: gamma ray
 is_a: ZECO:0000209 ! electromagnetic radiation
 
 [Term]

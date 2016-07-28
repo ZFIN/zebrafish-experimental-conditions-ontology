@@ -25,7 +25,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="&obo;zeco.owl">
         <oboInOwl:hasOBOFormatVersion rdf:datatype="&xsd;string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="&xsd;dateTimeStamp">26:07:2016 09:21</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="&xsd;dateTimeStamp">28:07:2016 09:21</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="&xsd;string">OBO-Edit 2.3</oboInOwl:auto-generated-by>
         <oboInOwl:saved-by rdf:datatype="&xsd;string">ybradford</oboInOwl:saved-by>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">zebrafish_experimental_conditions_ontology</oboInOwl:default-namespace>
@@ -45,8 +45,8 @@
         <rdfs:comment rdf:datatype="&xsd;string">abstract upper-level terms not directly useful for analysis</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
     <owl:AnnotationProperty rdf:about="&dc;license"/>
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBOFormatVersion">
         <rdfs:label rdf:datatype="&xsd;string">has_obo_format_version</rdfs:label>
@@ -59,10 +59,10 @@
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
     <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;saved-by"/>
     <owl:AnnotationProperty rdf:about="&obo;IAO_0100001">
         <rdfs:label rdf:datatype="&xsd;string">term replaced by</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;saved-by"/>
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
         <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
     </owl:AnnotationProperty>
@@ -1246,7 +1246,7 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000216 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000216">
-        <rdfs:label xml:lang="en">gama ray</rdfs:label>
+        <rdfs:label>gamma ray</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000209"/>
     </owl:Class>
     
