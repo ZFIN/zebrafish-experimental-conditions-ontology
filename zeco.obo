@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:07:2016 09:21
+date: 09:09:2016 09:21
 saved-by: ybradford
 auto-generated-by: OBO-Edit 2.3
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
@@ -448,7 +448,7 @@ is_a: ZECO:0000229 ! physical alteration
 id: ZECO:0000177
 name: xenotransplantation
 def: "Experimental condition in which living cells or tissues from one species are transplanted into another." []
-is_a: ZECO:0000176 ! surgical manipulation
+is_a: ZECO:0000105 ! biological treatment
 
 [Term]
 id: ZECO:0000178
