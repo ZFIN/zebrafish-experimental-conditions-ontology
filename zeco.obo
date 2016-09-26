@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:09:2016 09:21
+date: 26:09:2016 14:10
 saved-by: ybradford
 auto-generated-by: OBO-Edit 2.3
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
@@ -94,19 +94,19 @@ is_a: ZECO:0000112 ! diet
 id: ZECO:0000114
 name: fasting
 def: "Limited food availability condition in which there is no food provided." []
-is_a: ZECO:0000115 ! limited availability
+is_a: ZECO:0000115 ! limited food availability
 
 [Term]
 id: ZECO:0000115
-name: limited availability
+name: limited food availability
 def: "Food availability condition in which food is provided in limited supply." []
 is_a: ZECO:0000113 ! food availability
 
 [Term]
 id: ZECO:0000116
-name: unlimited availability
+name: unlimited food availability
 def: "Food availability condition in which food is available in unlimited supply." []
-is_a: ZECO:0000113 ! food availability
+is_a: ZECO:0000247 ! increased food availability
 
 [Term]
 id: ZECO:0000117
@@ -260,7 +260,8 @@ is_a: ZECO:0000140 ! housing conditions
 [Term]
 id: ZECO:0000142
 name: overcrowding
-def: "Housing condition in which the enclosure of the fish is overcrowded or contains an excess of fish or obstacles that reduce the available space of the enclosure. " []
+def: "Housing condition in which the enclosure of the fish is overcrowded, containing an excess of fish that reduces the available space of the enclosure." []
+synonym: "high density" EXACT []
 is_a: ZECO:0000140 ! housing conditions
 
 [Term]
@@ -413,6 +414,7 @@ id: ZECO:0000170
 name: light ablation
 def: "Experimental condition which uses focused light to ablate an anatomical structure or cell." []
 is_a: ZECO:0000168 ! ablation
+is_a: ZECO:0000245 ! light damage
 
 [Term]
 id: ZECO:0000171
@@ -821,6 +823,33 @@ id: ZECO:0000245
 name: light damage
 def: "Physical alteration which uses light to damage the anatomical structure, cell, or organ." []
 is_a: ZECO:0000229 ! physical alteration
+
+[Term]
+id: ZECO:0000246
+name: undercrowding
+def: "Housing condition in which the enclosure of the fish is undercrowded,containing a low amount of fish that increases the available space of the enclosure." []
+synonym: "low density" EXACT []
+is_a: ZECO:0000140 ! housing conditions
+
+[Term]
+id: ZECO:0000247
+name: increased food availability
+def: "Food availability condition in which food is provided in increased supply." []
+synonym: "overfeeding" EXACT []
+is_a: ZECO:0000113 ! food availability
+
+[Term]
+id: ZECO:0000248
+name: cold damage
+def: "Physical alteration which uses cold to damage an anatomical structure, cell, or orgaon" []
+is_a: ZECO:0000229 ! physical alteration
+
+[Term]
+id: ZECO:0000249
+name: cryoablation
+def: "Targetd destruction of an anatomical structure by freezing." []
+is_a: ZECO:0000168 ! ablation
+is_a: ZECO:0000248 ! cold damage
 
 [Typedef]
 id: has_component

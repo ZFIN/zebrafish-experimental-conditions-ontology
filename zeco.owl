@@ -27,7 +27,7 @@
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:date"/>
-        <Literal datatypeIRI="&xsd;dateTimeStamp">09:09:2016 09:21</Literal>
+        <Literal datatypeIRI="&xsd;dateTimeStamp">26:09:2016 14:10</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:saved-by"/>
@@ -475,6 +475,18 @@
         <Class IRI="/ZECO_0000245"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/ZECO_0000246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000249"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100"/>
     </Declaration>
     <Declaration>
@@ -608,7 +620,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ZECO_0000116"/>
-        <Class IRI="/ZECO_0000113"/>
+        <Class IRI="/ZECO_0000247"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ZECO_0000117"/>
@@ -821,6 +833,10 @@
     <SubClassOf>
         <Class IRI="/ZECO_0000170"/>
         <Class IRI="/ZECO_0000168"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000170"/>
+        <Class IRI="/ZECO_0000245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ZECO_0000171"/>
@@ -1122,6 +1138,26 @@
         <Class IRI="/ZECO_0000245"/>
         <Class IRI="/ZECO_0000229"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000246"/>
+        <Class IRI="/ZECO_0000140"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000247"/>
+        <Class IRI="/ZECO_0000113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000248"/>
+        <Class IRI="/ZECO_0000229"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000249"/>
+        <Class IRI="/ZECO_0000168"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000249"/>
+        <Class IRI="/ZECO_0000248"/>
+    </SubClassOf>
     <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
     </TransitiveObjectProperty>
@@ -1381,7 +1417,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/ZECO_0000115</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">limited availability</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">limited food availability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1391,7 +1427,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/ZECO_0000116</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">unlimited availability</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">unlimited food availability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -1641,7 +1677,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>/ZECO_0000142</IRI>
-        <Literal datatypeIRI="&xsd;string">Housing condition in which the enclosure of the fish is overcrowded or contains an excess of fish or obstacles that reduce the available space of the enclosure. </Literal>
+        <Literal datatypeIRI="&xsd;string">Housing condition in which the enclosure of the fish is overcrowded, containing an excess of fish that reduces the available space of the enclosure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>/ZECO_0000142</IRI>
+        <Literal datatypeIRI="&xsd;string">high density</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2417,6 +2458,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/ZECO_0000245</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">light damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/ZECO_0000246</IRI>
+        <Literal datatypeIRI="&xsd;string">Housing condition in which the enclosure of the fish is undercrowded,containing a low amount of fish that increases the available space of the enclosure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>/ZECO_0000246</IRI>
+        <Literal datatypeIRI="&xsd;string">low density</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000246</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">undercrowding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/ZECO_0000247</IRI>
+        <Literal datatypeIRI="&xsd;string">Food availability condition in which food is provided in increased supply.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>/ZECO_0000247</IRI>
+        <Literal datatypeIRI="&xsd;string">overfeeding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000247</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">increased food availability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/ZECO_0000248</IRI>
+        <Literal datatypeIRI="&xsd;string">Physical alteration which uses cold to damage an anatomical structure, cell, or orgaon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000248</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cold damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/ZECO_0000249</IRI>
+        <Literal datatypeIRI="&xsd;string">Targetd destruction of an anatomical structure by freezing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000249</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cryoablation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
