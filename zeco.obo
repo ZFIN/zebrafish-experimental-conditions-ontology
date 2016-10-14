@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:09:2016 14:10
+date: 13:10:2016 16:10
 saved-by: ybradford
 auto-generated-by: OBO-Edit 2.3
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
@@ -841,7 +841,7 @@ is_a: ZECO:0000113 ! food availability
 [Term]
 id: ZECO:0000248
 name: cold damage
-def: "Physical alteration which uses cold to damage an anatomical structure, cell, or orgaon" []
+def: "Physical alteration which uses cold to damage an anatomical structure, cell, or organ" []
 is_a: ZECO:0000229 ! physical alteration
 
 [Term]
