@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:10:2016 16:10
+date: 08:11:2017 13:15
 saved-by: ybradford
 auto-generated-by: OBO-Edit 2.3
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
@@ -88,7 +88,7 @@ is_a: ZECO:0000104 ! experimental conditions
 id: ZECO:0000113
 name: food availability
 def: "Diet condition in which the availabity of food is manipulated." []
-is_a: ZECO:0000112 ! diet
+is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000114
@@ -124,13 +124,11 @@ is_a: ZECO:0000117 ! food content
 id: ZECO:0000119
 name: high cholesterol
 def: "Cholesterol content condition in which the amount of cholesterol in the diet is elevated." []
-is_a: ZECO:0000118 ! cholesterol content
 
 [Term]
 id: ZECO:0000120
 name: low cholesterol
 def: "Cholesterol content condition in which the amount of cholesterol in the diet is reduced." []
-is_a: ZECO:0000118 ! cholesterol content
 
 [Term]
 id: ZECO:0000121
@@ -142,7 +140,6 @@ is_a: ZECO:0000117 ! food content
 id: ZECO:0000122
 name: high fat
 def: "Fat content condition in which the amount of fat in the diet is elevated." []
-is_a: ZECO:0000121 ! fat content
 
 [Term]
 id: ZECO:0000123
@@ -160,7 +157,6 @@ is_a: ZECO:0000122 ! high fat
 id: ZECO:0000125
 name: low fat
 def: "Fat content condition in which the amount of fat in the diet is reduced." []
-is_a: ZECO:0000121 ! fat content
 
 [Term]
 id: ZECO:0000126
@@ -184,13 +180,11 @@ is_a: ZECO:0000117 ! food content
 id: ZECO:0000129
 name: high protein
 def: "Protein content condition in which the protein in the diet is elevated." []
-is_a: ZECO:0000128 ! protein content
 
 [Term]
 id: ZECO:0000130
 name: low protein
 def: "Protein content condition in which the protein in the diet is reduced." []
-is_a: ZECO:0000128 ! protein content
 
 [Term]
 id: ZECO:0000131
@@ -638,11 +632,15 @@ is_a: ZECO:0000209 ! electromagnetic radiation
 [Term]
 id: ZECO:0000213
 name: visible light
+def: "Electromagnetic radiation with a wavelength from 400 nm to 700 nm. Visible light referes to the light which is visible to the human eye and is responsible fo the sense of sight." [https://en.wikipedia.org/wiki/Light]
 is_a: ZECO:0000209 ! electromagnetic radiation
 
 [Term]
 id: ZECO:0000214
-name: UV
+name: ultraviolet light
+def: "Electromagnetic radiation with a wavelength from 10 nm to 400nm. Long-wavelength ultraviolet radiation can cause chemical reactions and causes many substances to glow or fluoresce." [https://en.wikipedia.org/wiki/Ultraviolet]
+synonym: "UV" EXACT []
+synonym: "UV light" EXACT []
 is_a: ZECO:0000209 ! electromagnetic radiation
 
 [Term]
@@ -799,13 +797,11 @@ is_a: ZECO:0000117 ! food content
 id: ZECO:0000241
 name: high carbohydrate
 def: "Food content condtion in which the amount of carbohydrate in the diet is elevated." []
-is_a: ZECO:0000240 ! carbohydrate content
 
 [Term]
 id: ZECO:0000242
 name: low carbohydrate
 def: "Food content condtion in which the amount of carbohydrate in the diet is reduced." []
-is_a: ZECO:0000240 ! carbohydrate content
 
 [Term]
 id: ZECO:0000243
@@ -850,6 +846,44 @@ name: cryoablation
 def: "Targetd destruction of an anatomical structure by freezing." []
 is_a: ZECO:0000168 ! ablation
 is_a: ZECO:0000248 ! cold damage
+
+[Term]
+id: ZECO:0000250
+name: nutrient decreased
+def: "Food content condition in which levels of a nutrient are decreased relative to standard diet." []
+is_a: ZECO:0000117 ! food content
+
+[Term]
+id: ZECO:0000251
+name: nutrient increased
+def: "Food content condition in which levels of a nutrient are increased relative to standard diet." []
+is_a: ZECO:0000117 ! food content
+
+[Term]
+id: ZECO:0000252
+name: feeding regime
+def: "Experimental condition that manipulates the frequency or way an organism is fed." []
+is_a: ZECO:0000104 ! experimental conditions
+
+[Term]
+id: ZECO:0000253
+name: gavage
+def: "Feeding regime in which food, drugs, or other substances are administered by force, typically through a tube leading down the throat to the stomach." []
+is_a: ZECO:0000252 ! feeding regime
+
+[Term]
+id: ZECO:0000254
+name: bacterial treatment by gavage
+def: "Bacterial treatment condition where bacteria are introduced to the organism by gavage." []
+is_a: ZECO:0000106 ! bacterial treatment
+is_a: ZECO:0000253 ! gavage
+
+[Term]
+id: ZECO:0000255
+name: chemical treatment by gavage
+def: "Chemical treatment condition where the chemical is introduced to the organism by gavage." []
+is_a: ZECO:0000111 ! chemical treatment
+is_a: ZECO:0000253 ! gavage
 
 [Typedef]
 id: has_component
