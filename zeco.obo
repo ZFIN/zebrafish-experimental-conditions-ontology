@@ -888,14 +888,14 @@ is_a: ZECO:0000253 ! gavage
 [Typedef]
 id: has_component
 name: has_component
-namespace: zebrafish experimental conditions ontology
+namespace: zebrafish_experimental_conditions_ontology
 xref: RO:0002211
 creation_date: 2014-03-07T11:34:22Z
 
 [Typedef]
 id: has_part
 name: has_part
-namespace: zebrafish experimental conditions ontology
+namespace: zebrafish_experimental_conditions_ontology
 xref: BFO:0000051
 is_transitive: true
 creation_date: 2014-03-07T11:32:23Z
@@ -903,7 +903,7 @@ creation_date: 2014-03-07T11:32:23Z
 [Typedef]
 id: part_of
 name: part_of
-namespace: zebrafish experimental conditions ontology 
+namespace: zebrafish_experimental_conditions_ontology
 xref: BFO:0000050
 is_transitive: true
 
