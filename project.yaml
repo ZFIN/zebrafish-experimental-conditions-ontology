@@ -1,0 +1,50 @@
+allow_equivalents: all
+catalog_file: catalog-v001.xml
+components: null
+contact: null
+contributors: null
+creators: null
+description: None
+dosdp_tools_options: --obo-prefixes=true
+edit_format: owl
+export_formats:
+- owl
+- obo
+- json
+github_org: ybradford
+gzip_main: false
+id: zeco
+import_group:
+  directory: imports/
+  disabled: false
+  ids: null
+  products:
+  - description: null
+    id: ro
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  rebuild_if_source_changes: true
+import_pattern_ontology: false
+license: Unspecified
+namespaces: null
+obo_format_options: ''
+pattern_group: null
+pattern_pipelines_group: null
+primary_release: full
+reasoner: ELK
+release_artefacts:
+- full
+- base
+repo: zebrafish-experimental-conditions-ontology
+report_fail_on: error
+robot_java_args: -Xmx8G
+robot_settings: null
+robot_version: null
+robotemplate_group: null
+subset_group: null
+title: Zebrafish Experimental Conditions Ontology
+travis_emails: null
+uribase: http://purl.obolibrary.org/obo
+use_dosdps: false
+use_external_date: false
