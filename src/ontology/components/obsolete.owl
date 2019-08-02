@@ -1,0 +1,1412 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/zeco/src/ontology/obsolete.owl#"
+     xml:base="http://purl.obolibrary.org/obo/zeco/src/ontology/obsolete.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco/src/ontology/obsolete.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000105"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000106"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000107">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000107"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000108">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000108"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000109">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000109"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000110">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000110"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000111"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000112"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000113">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000113"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000114">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000114"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000115">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000115"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000116">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000116"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000117"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000118">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000118"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000119">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000119"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000120">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000120"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000121">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000121"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000122"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000123">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000123"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000124">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000124"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000125"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000126">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000126"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000127">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000127"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000128">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000129">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000130">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000130"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000131"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000132"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000133">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000133"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000134">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000134"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000135">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000135"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000136"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000137">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000137"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000138">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000138"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000139">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000139"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000140"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000141">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000141"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000142">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000142"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000143">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000143"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000144">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000144"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000145">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000145"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000146">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000146"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000147"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000148">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000148"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000149">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000149"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000150">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000150"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000151">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000151"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000152">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000152"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000153">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000153"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000154">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000154"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000155">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000155"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000156">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000156"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000157">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000157"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000158">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000158"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000159">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000159"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000160">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000160"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000161">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000161"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000162">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000162"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000163">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000163"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000164">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000165">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000165"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000166">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000166"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000168"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000169">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000170">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000170"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000171">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000171"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000172">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000172"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000173">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000173"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000174">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000174"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000176">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000176"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000177">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000177"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000178">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000178"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000179">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000179"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000180">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000180"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000181">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000181"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000182"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000183">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000183"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000184">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000184"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000185">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000185"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000186">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000186"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000187">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000187"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000188">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000188"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000189">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000189"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000190"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000191">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000191"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000192">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000192"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000193">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000193"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000194">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000194"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000195">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000195"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000196">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000196"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000197">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000197"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000198">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000199">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000199"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000200">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000200"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000201">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000201"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000202">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000202"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000203"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000204">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000204"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000205">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000205"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000206">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000206"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000207">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000207"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000208"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000209"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000210">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000210"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000211">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000211"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000212">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000212"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000213">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000213"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000214">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000214"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000215">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000215"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000216">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000216"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000217"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000218">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000218"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000219">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000219"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000220">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000220"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000221">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000221"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000222">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000222"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000223">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000223"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000224">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000224"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000225">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000225"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000226">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000226"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000227">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000227"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000228">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000228"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000229"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000230">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000230"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000231">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000231"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000232">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000232"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000233">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000233"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000234">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000235">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000235"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000236">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000236"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000237">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000237"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000238">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000238"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000239">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000239"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000240"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000241"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000242"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000243">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000243"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000244">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000244"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000245">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000245"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000246">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000246"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000247">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000247"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000248">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000248"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000249">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000249"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000250"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000251"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000252">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000252"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000253">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000253"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000254">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000254"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000255">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000255"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000256">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000256"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000100"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

@@ -6,6 +6,7 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zeco/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zeco/imports/ro_import.obo" uri="imports/ro_import.obo"/>
   
+	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zeco/src/ontology/obsolete.owl" uri="components/obsolete.owl"/>
 
 
   

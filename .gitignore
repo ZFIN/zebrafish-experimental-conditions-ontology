@@ -22,3 +22,4 @@ src/ontology/patterns
 *.tmp.owl
 src/ontology/merged-zeco-edit.owl
 src/ontology/simple_seed.txt
+zeco-full.obo
