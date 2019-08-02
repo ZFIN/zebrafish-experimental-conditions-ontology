@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/zeco.owl#"
-     xml:base="http://purl.obolibrary.org/obo/zeco.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/zeco/zeco-simple.owl#"
+     xml:base="http://purl.obolibrary.org/obo/zeco/zeco-simple.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10,8 +10,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2019-08-02"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco/zeco-simple.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2019-08-02/zeco-simple.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
         <terms:license>Unspecified</terms:license>

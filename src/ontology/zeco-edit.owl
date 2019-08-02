@@ -239,41 +239,6 @@ AnnotationAssertion(rdfs:label oboInOwl:hasOBOFormatVersion "has_obo_format_vers
 
 AnnotationAssertion(rdfs:label oboInOwl:hasOBONamespace "has_obo_namespace")
 
-
-############################
-#   Object Properties
-############################
-
-# Object Property: obo:BFO_0000050 (part_of)
-
-AnnotationAssertion(oboInOwl:hasDbXref obo:BFO_0000050 "BFO:0000050")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:BFO_0000050 "zebrafish_experimental_conditions_ontology")
-AnnotationAssertion(oboInOwl:id obo:BFO_0000050 "part_of")
-AnnotationAssertion(oboInOwl:shorthand obo:BFO_0000050 "part_of")
-AnnotationAssertion(rdfs:label obo:BFO_0000050 "part_of")
-TransitiveObjectProperty(obo:BFO_0000050)
-
-# Object Property: obo:BFO_0000051 (has_part)
-
-AnnotationAssertion(oboInOwl:creation_date obo:BFO_0000051 "2014-03-07T11:32:23Z")
-AnnotationAssertion(oboInOwl:hasDbXref obo:BFO_0000051 "BFO:0000051")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:BFO_0000051 "zebrafish_experimental_conditions_ontology")
-AnnotationAssertion(oboInOwl:id obo:BFO_0000051 "has_part")
-AnnotationAssertion(oboInOwl:shorthand obo:BFO_0000051 "has_part")
-AnnotationAssertion(rdfs:label obo:BFO_0000051 "has_part")
-TransitiveObjectProperty(obo:BFO_0000051)
-
-# Object Property: obo:RO_0002211 (has_component)
-
-AnnotationAssertion(oboInOwl:creation_date obo:RO_0002211 "2014-03-07T11:34:22Z")
-AnnotationAssertion(oboInOwl:hasDbXref obo:RO_0002211 "RO:0002211")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:RO_0002211 "zebrafish_experimental_conditions_ontology")
-AnnotationAssertion(oboInOwl:id obo:RO_0002211 "has_component")
-AnnotationAssertion(oboInOwl:shorthand obo:RO_0002211 "has_component")
-AnnotationAssertion(rdfs:label obo:RO_0002211 "has_component")
-
-
-
 ############################
 #   Classes
 ############################

@@ -12,7 +12,7 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco/zeco-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2019-07-31/zeco-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2019-08-02/zeco-base.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
         <terms:license>Unspecified</terms:license>
@@ -181,41 +181,19 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <oboInOwl:hasDbXref>BFO:0000050</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>zebrafish_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>part_of</oboInOwl:id>
-        <oboInOwl:shorthand>part_of</oboInOwl:shorthand>
-        <rdfs:label>part_of</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <oboInOwl:creation_date>2014-03-07T11:32:23Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>BFO:0000051</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>zebrafish_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>has_part</oboInOwl:id>
-        <oboInOwl:shorthand>has_part</oboInOwl:shorthand>
-        <rdfs:label>has_part</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211">
-        <oboInOwl:creation_date>2014-03-07T11:34:22Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>RO:0002211</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>zebrafish_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>has_component</oboInOwl:id>
-        <oboInOwl:shorthand>has_component</oboInOwl:shorthand>
-        <rdfs:label>has_component</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
     
 
 

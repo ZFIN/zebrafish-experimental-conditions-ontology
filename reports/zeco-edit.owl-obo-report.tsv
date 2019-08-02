@@ -1,10 +1,7 @@
 Level	Rule Name	Subject	Property	Value
 WARN	annotation_whitespace	http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100	IAO:0000115	The state in which an organism exists. 	
-WARN	missing_definition	BFO:0000050	IAO:0000115		
-WARN	missing_definition	BFO:0000051	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	IAO:0100001	IAO:0000115		
-WARN	missing_definition	RO:0002211	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000148	IAO:0000115		

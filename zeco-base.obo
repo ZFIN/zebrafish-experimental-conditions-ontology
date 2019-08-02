@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zeco/releases/2019-07-31/zeco-base.owl
+data-version: zeco/releases/2019-08-02/zeco-base.owl
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 ontology: zeco/zeco-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
@@ -910,26 +910,4 @@ id: ZECO:0000256
 name: bacterial treatment by diet
 def: "Bacterial treatment where bacteria are introduced via the diet. This includes probiotic treatments." []
 is_a: ZECO:0000112 ! diet
-
-[Typedef]
-id: has_component
-name: has_component
-namespace: zebrafish_experimental_conditions_ontology
-xref: RO:0002211
-creation_date: 2014-03-07T11:34:22Z
-
-[Typedef]
-id: has_part
-name: has_part
-namespace: zebrafish_experimental_conditions_ontology
-xref: BFO:0000051
-is_transitive: true
-creation_date: 2014-03-07T11:32:23Z
-
-[Typedef]
-id: part_of
-name: part_of
-namespace: zebrafish_experimental_conditions_ontology
-xref: BFO:0000050
-is_transitive: true
 

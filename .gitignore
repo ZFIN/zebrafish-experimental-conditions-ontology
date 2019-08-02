@@ -20,3 +20,5 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/patterns 
 *.tmp.obo
 *.tmp.owl
+src/ontology/merged-zeco-edit.owl
+src/ontology/simple_seed.txt
