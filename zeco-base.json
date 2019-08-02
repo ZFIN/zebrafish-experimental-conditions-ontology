@@ -1,139 +1,381 @@
 {
   "graphs" : [ {
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000154",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000246",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition in which gravity forces are applied. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.",
+          "val" : "Housing condition in which the enclosure of the fish is undercrowded,containing a low amount of fish that increases the available space of the enclosure.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "low density",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "undercrowding"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000125",
+      "meta" : {
+        "definition" : {
+          "val" : "Fat content condition in which the amount of fat in the diet is reduced.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "gravity"
+      "lbl" : "low fat"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000155",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000126",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition in which an external mechanical force is applied to the fish or part of the fish.",
+          "val" : "Low fat condition in which the amount of trans fat in the diet is reduced.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "mechanical stress"
+      "lbl" : "low trans fat"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000152",
-      "type" : "CLASS",
-      "lbl" : "high light intensity"
-    }, {
-      "id" : "http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000247",
       "meta" : {
         "definition" : {
-          "val" : "The state in which an organism exists. ",
+          "val" : "Food availability condition in which food is provided in increased supply.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "overfeeding",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased food availability"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000248",
+      "meta" : {
+        "definition" : {
+          "val" : "Physical alteration which uses cold to damage an anatomical structure, cell, or organ",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "conditions"
+      "lbl" : "cold damage"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000153",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000127",
+      "meta" : {
+        "definition" : {
+          "val" : "Low fat condition in which the amount of polyunsaturated fat in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "low light intensity"
+      "lbl" : "low polyunsaturated fat"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000158",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000128",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condition in which the amount of protein in the diet is manipulated.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "circular flow"
+      "lbl" : "protein content"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000159",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000249",
+      "meta" : {
+        "definition" : {
+          "val" : "Targetd destruction of an anatomical structure by freezing.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "through flow"
+      "lbl" : "cryoablation"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000156",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000121",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condition in which the amount of fat in the diet is manipulated.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "vibration"
+      "lbl" : "fat content"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000157",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000242",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condtion in which the amount of carbohydrate in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "water flow"
+      "lbl" : "low carbohydrate"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000150",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000243",
       "type" : "CLASS",
-      "lbl" : "constant light"
+      "lbl" : "stress by handling"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000151",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "Fat content condition in which the amount of fat in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "light intensity"
+      "lbl" : "high fat"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000149",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000244",
+      "meta" : {
+        "definition" : {
+          "val" : "Mechanical stress condition where the organism is subjected to vibrations having an ultrasonic frequency.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "constant dark"
+      "lbl" : "ultrasound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000123",
+      "meta" : {
+        "definition" : {
+          "val" : "High fat condition in which the amount of saturated fat in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high saturated fat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000245",
+      "meta" : {
+        "definition" : {
+          "val" : "Physical alteration which uses light to damage the anatomical structure, cell, or organ.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "light damage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000124",
+      "meta" : {
+        "definition" : {
+          "val" : "High fat condition in which the amount of monounsaturated fat in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high monounsaturated fat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000240",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condition in which the amount of carbohydrate in the diet is manipulated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "carbohydrate content"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000241",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condtion in which the amount of carbohydrate in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high carbohydrate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000120",
+      "meta" : {
+        "definition" : {
+          "val" : "Cholesterol content condition in which the amount of cholesterol in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low cholesterol"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "type" : "PROPERTY",
       "lbl" : "definition"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000165",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000118",
       "meta" : {
         "definition" : {
-          "val" : "Temperature shock condition in which fish are subjected for a short period of time to temperature lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "val" : "Food content condition in which the amount of cholesterol in the diet is manipulated.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "cold shock"
+      "lbl" : "cholesterol content"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000166",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000239",
       "meta" : {
         "definition" : {
-          "val" : "Temperature shock condition in which fish are subjected for a short period of time to temperature higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "val" : "Chemical treatment condition in which the chemical is introduced through the diet.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "heat shock"
+      "lbl" : "chemical treatment by diet"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000163",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000119",
       "meta" : {
         "definition" : {
-          "val" : "Temperature exposure condition in which fish are raised in temperature that is higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "val" : "Cholesterol content condition in which the amount of cholesterol in the diet is elevated.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "heat exposure"
+      "lbl" : "high cholesterol"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000164",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000114",
       "meta" : {
         "definition" : {
-          "val" : "Temperature exposure condition in which fish are subjected for a short period of time to temperature that is lower or higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "val" : "Limited food availability condition in which there is no food provided.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "temperature shock"
+      "lbl" : "fasting"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000169",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000235",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition which uses a chemical to ablate an anatomical structure or cell.",
+          "val" : "Viral treatment where the virus is injected into the fish.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "chemical ablation"
+      "lbl" : "viral treatment by injection"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000202",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000115",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition in which the pH of the water is higher than the pH of the controlled conditions.",
+          "val" : "Food availability condition in which food is provided in limited supply.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "basic"
+      "lbl" : "limited food availability"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000236",
+      "meta" : {
+        "definition" : {
+          "val" : "Xenotransplantation condition in which cancer cells are injected or grafted into the zebrafish.",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
-      "lbl" : "water salinity"
+      "lbl" : "cancer xenotransplantation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000237",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemical treatment in which the chemical is injected into the zebrafish.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "chemical treatment by injection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000116",
+      "meta" : {
+        "definition" : {
+          "val" : "Food availability condition in which food is available in unlimited supply.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "unlimited food availability"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000117",
+      "meta" : {
+        "definition" : {
+          "val" : "Diet condition in which the contents of the food is manipulated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "food content"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000238",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemical treatment condition in which the chemical is introduced through the environment. For zebrafish this is the tank water.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "chemical treatment by environment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000110",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological treatment in which fish have been infected with a virus.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "viral treatment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000198",
+      "type" : "CLASS",
+      "lbl" : "high sodium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000231",
+      "meta" : {
+        "definition" : {
+          "val" : "Bacterial treatment where the bacteria are introduced via the environment. For zebrafish this is the tank water.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "bacterial treatment by exposure to environment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000111",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "chemical treatment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000232",
+      "meta" : {
+        "definition" : {
+          "val" : "Fungal treatment where the fungus is injected into the fish.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "fungal treatment by injection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000199",
+      "type" : "CLASS",
+      "lbl" : "low sodium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000112",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition where the food of the zebrafish is manipulated in some way.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "diet"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000233",
+      "meta" : {
+        "definition" : {
+          "val" : "Fungal treatment where the fungus is introduced via the environment. For zebrafish this is the tank water.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "fungal treatment by exposure to environment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ubprop#_upper_level",
       "meta" : {
@@ -144,11 +386,464 @@
       },
       "type" : "PROPERTY"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000200",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000113",
+      "meta" : {
+        "definition" : {
+          "val" : "Diet condition in which the availabity of food is manipulated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "food availability"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000234",
+      "meta" : {
+        "definition" : {
+          "val" : "Viral treatment where the virus is introduced via the environment. For zebrafish this is the tank water.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "viral treatment by exposure to environment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000194",
+      "type" : "CLASS",
+      "lbl" : "modified potassium composition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000195",
+      "type" : "CLASS",
+      "lbl" : "high potassium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000196",
+      "type" : "CLASS",
+      "lbl" : "low potassium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000230",
+      "meta" : {
+        "definition" : {
+          "val" : "Bacterial treatment where the bacteria are injected into the fish.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "bacterial treatment by injection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000197",
+      "type" : "CLASS",
+      "lbl" : "modified sodium composition"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#consider",
+      "type" : "PROPERTY",
+      "lbl" : "consider"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000190",
+      "type" : "CLASS",
+      "lbl" : "ion composition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000191",
+      "type" : "CLASS",
+      "lbl" : "modified calcium composition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000192",
+      "type" : "CLASS",
+      "lbl" : "high calcium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000193",
+      "type" : "CLASS",
+      "lbl" : "low calcium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000107",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological treatment in which fish have been infected with a fungus.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "fungal treatment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000228",
+      "meta" : {
+        "definition" : {
+          "val" : "Low fat condition in which the amount of monounsaturated fat in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low monounsaturated fat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000108",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological treatment in which fish were raised in the absence of bacteria.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "germ free"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000229",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "physical alteration"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000109",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological treatment in which fish have been infected with protozoa.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "protozoan treatment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000147",
+      "type" : "CLASS",
+      "lbl" : "light duration"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000148",
+      "type" : "CLASS",
+      "lbl" : "altered light dark cycle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000149",
+      "type" : "CLASS",
+      "lbl" : "constant dark"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000143",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which components of the fish have been removed and are maintained separately.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "in vitro culture"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000144",
+      "meta" : {
+        "definition" : {
+          "val" : "In vitro culture condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "organ culture"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000145",
+      "meta" : {
+        "definition" : {
+          "val" : "In vitro culture condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "primary cell culture"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000146",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "lighting conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000140",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition that manipulates the enclosure of the fish.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "housing conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000141",
+      "meta" : {
+        "definition" : {
+          "val" : "Housing condition in which the roof of the enclosure if open.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "open roofed"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000142",
+      "meta" : {
+        "definition" : {
+          "val" : "Housing condition in which the enclosure of the fish is overcrowded, containing an excess of fish that reduces the available space of the enclosure.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "high density",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "overcrowding"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000136",
+      "meta" : {
+        "definition" : {
+          "val" : "High carbohydrate conditions in which the amount of sugar in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low sugar"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000137",
+      "meta" : {
+        "definition" : {
+          "val" : "Low sugar condition in which the amount of sucrose in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low sucrose"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000138",
+      "meta" : {
+        "definition" : {
+          "val" : "Low sugar condition in which the amount of fructose in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low fructose"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000139",
+      "meta" : {
+        "definition" : {
+          "val" : "Low sugar condition in which the amount of glucose in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low glucose"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000253",
+      "meta" : {
+        "definition" : {
+          "val" : "Feeding regime in which food, drugs, or other substances are administered by force, typically through a tube leading down the throat to the stomach.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "gavage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000132",
+      "meta" : {
+        "definition" : {
+          "val" : "High carbohydrate conditions in which the amount of sugar in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high sugar"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000133",
+      "meta" : {
+        "definition" : {
+          "val" : "High sugar condition in which the amount of fructose in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high fructose"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000254",
+      "meta" : {
+        "definition" : {
+          "val" : "Bacterial treatment condition where bacteria are introduced to the organism by gavage.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "bacterial treatment by gavage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000255",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemical treatment condition where the chemical is introduced to the organism by gavage.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "chemical treatment by gavage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000134",
+      "meta" : {
+        "definition" : {
+          "val" : "High sugar condition in which the amount of glucose in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high glucose"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000256",
+      "meta" : {
+        "definition" : {
+          "val" : "Bacterial treatment where bacteria are introduced via the diet. This includes probiotic treatments.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "bacterial treatment by diet"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000135",
+      "meta" : {
+        "definition" : {
+          "val" : "High sugar condition in which the amount of sucrose in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high sucrose"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000250",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condition in which levels of a nutrient are decreased relative to standard diet.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "nutrient decreased"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000251",
+      "meta" : {
+        "definition" : {
+          "val" : "Food content condition in which levels of a nutrient are increased relative to standard diet.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "nutrient increased"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000130",
+      "meta" : {
+        "definition" : {
+          "val" : "Protein content condition in which the protein in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low protein"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000252",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition that manipulates the frequency or way an organism is fed.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "feeding regime"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000131",
+      "type" : "CLASS",
+      "lbl" : "stress"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000129",
+      "meta" : {
+        "definition" : {
+          "val" : "Protein content condition in which the protein in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high protein"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000202",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the pH of the water is higher than the pH of the controlled conditions.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "basic"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000169",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition which uses a chemical to ablate an anatomical structure or cell.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "chemical ablation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000203",
+      "type" : "CLASS",
+      "lbl" : "water salinity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000204",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the salt concentration is higher than the one in controlled conditions.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "hypertonic"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000205",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the salt concentration is lower than the one in controlled conditions.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "hypotonic"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000165",
+      "meta" : {
+        "definition" : {
+          "val" : "Temperature shock condition in which fish are subjected for a short period of time to temperature lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "cold shock"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000166",
+      "meta" : {
+        "definition" : {
+          "val" : "Temperature shock condition in which fish are subjected for a short period of time to temperature higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "heat shock"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000200",
       "type" : "CLASS",
       "lbl" : "pH"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000168",
       "meta" : {
         "definition" : {
           "val" : "Targeted destruction of an anatomical structure.",
@@ -158,7 +853,7 @@
       "type" : "CLASS",
       "lbl" : "ablation"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000201",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000201",
       "meta" : {
         "definition" : {
           "val" : "Experimental condition in which the pH of the water is lower than the pH of the controlled conditions.",
@@ -168,7 +863,7 @@
       "type" : "CLASS",
       "lbl" : "acidic"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000161",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000161",
       "meta" : {
         "definition" : {
           "val" : "Temperature exposure condition in which fish are raised in temperature different (lower or higher) than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
@@ -178,11 +873,7 @@
       "type" : "CLASS",
       "lbl" : "stable temperature exposure"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#consider",
-      "type" : "PROPERTY",
-      "lbl" : "consider"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000162",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000162",
       "meta" : {
         "definition" : {
           "val" : "Temperature exposure condition in which fish are raised in temperature that is lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
@@ -192,7 +883,27 @@
       "type" : "CLASS",
       "lbl" : "cold exposure"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000160",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000163",
+      "meta" : {
+        "definition" : {
+          "val" : "Temperature exposure condition in which fish are raised in temperature that is higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "heat exposure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000164",
+      "meta" : {
+        "definition" : {
+          "val" : "Temperature exposure condition in which fish are subjected for a short period of time to temperature that is lower or higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "temperature shock"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000160",
       "meta" : {
         "definition" : {
           "val" : "Experimental condition in which the zebrafish is exposed to an increased or decreased temperature.",
@@ -202,41 +913,310 @@
       "type" : "CLASS",
       "lbl" : "temperature exposure"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000176",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000158",
+      "type" : "CLASS",
+      "lbl" : "circular flow"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000159",
+      "type" : "CLASS",
+      "lbl" : "through flow"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000154",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition that involves  manual or instrumental techniques to alter anatomical structures.",
+          "val" : "Experimental condition in which gravity forces are applied. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "surgical manipulation"
+      "lbl" : "gravity"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000177",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000155",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition in which living cells or tissues from one species are transplanted into another.",
+          "val" : "Experimental condition in which an external mechanical force is applied to the fish or part of the fish.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "xenotransplantation"
+      "lbl" : "mechanical stress"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000210",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000156",
       "type" : "CLASS",
-      "lbl" : "radio waves"
+      "lbl" : "vibration"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000174",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000157",
+      "type" : "CLASS",
+      "lbl" : "water flow"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000150",
+      "type" : "CLASS",
+      "lbl" : "constant light"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000151",
+      "type" : "CLASS",
+      "lbl" : "light intensity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000152",
+      "type" : "CLASS",
+      "lbl" : "high light intensity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000153",
+      "type" : "CLASS",
+      "lbl" : "low light intensity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000224",
       "meta" : {
         "definition" : {
-          "val" : "Experimental condition in which there is a deep cut or tear of the flesh.",
+          "val" : "Experimental condition where the fish is exposed to magnetic materials.",
           "xrefs" : [ ]
         }
       },
       "type" : "CLASS",
-      "lbl" : "laceration"
+      "lbl" : "magnetic field"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000213",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000103",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "standard conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000104",
+      "meta" : {
+        "definition" : {
+          "val" : "Condition in which variables of the experiment are manipulated to determine the variables effect by comparing to a control condition.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "experimental conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000225",
+      "meta" : {
+        "definition" : {
+          "val" : "High fat condition in which the amount of polyunsaturated fat in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high polysunsaturated fat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000105",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the organism is treated with a microorganism.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "biological treatment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000226",
+      "meta" : {
+        "definition" : {
+          "val" : "High fat condition in which the amount of trans fat in the diet is elevated.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "high trans fat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000106",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological treatment in which fish have been infected with bacteria. This infection can be done by addition of bacteria in the water or by injection of bacteria, (for example in the brain ventricle, in the caudal vein, in the yolk sac), or ingestion, or other means.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "bacterial treatment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000227",
+      "meta" : {
+        "definition" : {
+          "val" : "Low fat condition in which the amount of saturated fat in the diet is reduced.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "low saturated fat"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000187",
+      "meta" : {
+        "definition" : {
+          "val" : "A gas composition condition that alters the concentraion of oxygen.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "oxygen content"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000220",
+      "type" : "CLASS",
+      "lbl" : "acoustic radiation"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000100",
+      "meta" : {
+        "definition" : {
+          "val" : "The state in which an organism exists. ",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000221",
+      "type" : "CLASS",
+      "lbl" : "alpha particle"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000188",
+      "meta" : {
+        "definition" : {
+          "val" : "An oxygen content with high concentration of oxygen.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "hyperoxia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000101",
+      "meta" : {
+        "definition" : {
+          "val" : "Condition which serves as a standard against which experimental conditions can be compared.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "control conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000222",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "electromagnetic field"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000189",
+      "meta" : {
+        "definition" : {
+          "val" : "An oxygen content with low concentration of oxygen.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "hypoxia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000102",
+      "meta" : {
+        "definition" : {
+          "val" : "Control condition in which the conditions of the organism in the control experiment are not standard but are being used as the condition against which the experimental condition is compared.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "innocuous condition",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "generic control"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000223",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition where the fish is exposed to materials that produce an electric field.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "electric field"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000183",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Water quality condition that alters the concentration of atmospheric gases in water."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gas composition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000184",
+      "meta" : {
+        "definition" : {
+          "val" : "A gas composition condition that alters the concentraion of carbion dioxide.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "carbon dioxide content"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000185",
+      "type" : "CLASS",
+      "lbl" : "hypercapnia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000186",
+      "type" : "CLASS",
+      "lbl" : "hypocapnia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000180",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition that results in hematoma of tissue in which capillaries and sometimes venules are damaged by trauma, allowing blood to seep, hemorrhage, or extravasate into the surrounding interstitial tissues. (https://en.wikipedia.org/wiki/Bruise)",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "contusion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000181",
+      "meta" : {
+        "definition" : {
+          "val" : "Cutting transversly of an organ or tissue. Type of cutting often used to divide the spinal cord to investigate neural regeneration in zebrafish.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "transection"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000182",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which a chemical or physical characteristic of water is altered.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "water quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000217",
+      "type" : "CLASS",
+      "lbl" : "particle radiation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000218",
+      "type" : "CLASS",
+      "lbl" : "proton"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000219",
+      "type" : "CLASS",
+      "lbl" : "neutron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000213",
       "meta" : {
         "definition" : {
           "val" : "Electromagnetic radiation with a wavelength from 400 nm to 700 nm. Visible light referes to the light which is visible to the human eye and is responsible fo the sense of sight.",
@@ -246,7 +1226,7 @@
       "type" : "CLASS",
       "lbl" : "visible light"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000214",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000214",
       "meta" : {
         "definition" : {
           "val" : "Electromagnetic radiation with a wavelength from 10 nm to 400nm. Long-wavelength ultraviolet radiation can cause chemical reactions and causes many substances to glow or fluoresce.",
@@ -265,7 +1245,39 @@
       "type" : "CLASS",
       "lbl" : "ultraviolet light"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000178",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000215",
+      "type" : "CLASS",
+      "lbl" : "x-ray"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000216",
+      "type" : "CLASS",
+      "lbl" : "gamma ray"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000176",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition that involves  manual or instrumental techniques to alter anatomical structures.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "surgical manipulation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000177",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which living cells or tissues from one species are transplanted into another.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "xenotransplantation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000210",
+      "type" : "CLASS",
+      "lbl" : "radio waves"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000178",
       "meta" : {
         "definition" : {
           "val" : "Experimental condition in which a hole or break in the membranes of an organ or structure of the body is created.",
@@ -275,15 +1287,15 @@
       "type" : "CLASS",
       "lbl" : "perforation"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000211",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000211",
       "type" : "CLASS",
       "lbl" : "microwaves"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000212",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000212",
       "type" : "CLASS",
       "lbl" : "infared"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000179",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000179",
       "meta" : {
         "definition" : {
           "val" : "Experimental condition that results in superficial damage of tissue such that it is scraped or worn away.",
@@ -293,7 +1305,7 @@
       "type" : "CLASS",
       "lbl" : "abrasion"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000172",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000172",
       "meta" : {
         "definition" : {
           "val" : "Resection condtion in which all or part of an extremity such as the fin or tail are removed.",
@@ -303,7 +1315,7 @@
       "type" : "CLASS",
       "lbl" : "amputation"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000173",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000173",
       "meta" : {
         "definition" : {
           "val" : "Biological treatment in which the organism is treated with a substance to stimulate the production of antibodies and provide immunity against one or several diseases.",
@@ -313,7 +1325,17 @@
       "type" : "CLASS",
       "lbl" : "vaccine treatment"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000170",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000174",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition in which there is a deep cut or tear of the flesh.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : "laceration"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000170",
       "meta" : {
         "definition" : {
           "val" : "Experimental condition which uses focused light to ablate an anatomical structure or cell.",
@@ -323,7 +1345,7 @@
       "type" : "CLASS",
       "lbl" : "light ablation"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000171",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000171",
       "meta" : {
         "definition" : {
           "val" : "Surgical manipulation in which a particular organ, appendage, or part of the zebrafish is removed.",
@@ -333,1704 +1355,682 @@
       "type" : "CLASS",
       "lbl" : "resection"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-      "type" : "PROPERTY",
-      "lbl" : "has_obo_namespace"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
-      "type" : "PROPERTY",
-      "lbl" : "has_obo_format_version"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000206",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000206",
       "type" : "CLASS",
       "lbl" : "isotonic"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000207",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000207",
       "type" : "CLASS",
       "lbl" : "stable"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000204",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which the salt concentration is higher than the one in controlled conditions.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "hypertonic"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000205",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which the salt concentration is lower than the one in controlled conditions.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "hypotonic"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000208",
       "type" : "CLASS",
       "lbl" : "radiation"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209",
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000209",
       "type" : "CLASS",
       "lbl" : "electromagnetic radiation"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000220",
-      "type" : "CLASS",
-      "lbl" : "acoustic radiation"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000187",
-      "meta" : {
-        "definition" : {
-          "val" : "A gas composition condition that alters the concentraion of oxygen.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "oxygen content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000188",
-      "meta" : {
-        "definition" : {
-          "val" : "An oxygen content with high concentration of oxygen.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "hyperoxia"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000221",
-      "type" : "CLASS",
-      "lbl" : "alpha particle"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000185",
-      "type" : "CLASS",
-      "lbl" : "hypercapnia"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000186",
-      "type" : "CLASS",
-      "lbl" : "hypocapnia"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-      "type" : "PROPERTY",
-      "lbl" : "term replaced by"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000224",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition where the fish is exposed to magnetic materials.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "magnetic field"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104",
-      "meta" : {
-        "definition" : {
-          "val" : "Condition in which variables of the experiment are manipulated to determine the variables effect by comparing to a control condition.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "experimental conditions"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000225",
-      "meta" : {
-        "definition" : {
-          "val" : "High fat condition in which the amount of polyunsaturated fat in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high polysunsaturated fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000222",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "electromagnetic field"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000189",
-      "meta" : {
-        "definition" : {
-          "val" : "An oxygen content with low concentration of oxygen.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "hypoxia"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000223",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition where the fish is exposed to materials that produce an electric field.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "electric field"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000180",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition that results in hematoma of tissue in which capillaries and sometimes venules are damaged by trauma, allowing blood to seep, hemorrhage, or extravasate into the surrounding interstitial tissues. (https://en.wikipedia.org/wiki/Bruise)",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "contusion"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000183",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Water quality condition that alters the concentration of atmospheric gases in water."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "gas composition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000184",
-      "meta" : {
-        "definition" : {
-          "val" : "A gas composition condition that alters the concentraion of carbion dioxide.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "carbon dioxide content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000181",
-      "meta" : {
-        "definition" : {
-          "val" : "Cutting transversly of an organ or tissue. Type of cutting often used to divide the spinal cord to investigate neural regeneration in zebrafish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "transection"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which a chemical or physical characteristic of water is altered.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "water quality"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217",
-      "type" : "CLASS",
-      "lbl" : "particle radiation"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000218",
-      "type" : "CLASS",
-      "lbl" : "proton"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000215",
-      "type" : "CLASS",
-      "lbl" : "x-ray"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000216",
-      "type" : "CLASS",
-      "lbl" : "gamma ray"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000219",
-      "type" : "CLASS",
-      "lbl" : "neutron"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000198",
-      "type" : "CLASS",
-      "lbl" : "high sodium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000110",
-      "meta" : {
-        "definition" : {
-          "val" : "Biological treatment in which fish have been infected with a virus.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "viral treatment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000231",
-      "meta" : {
-        "definition" : {
-          "val" : "Bacterial treatment where the bacteria are introduced via the environment. For zebrafish this is the tank water.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "bacterial treatment by exposure to environment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000232",
-      "meta" : {
-        "definition" : {
-          "val" : "Fungal treatment where the fungus is injected into the fish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "fungal treatment by injection"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000199",
-      "type" : "CLASS",
-      "lbl" : "low sodium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "chemical treatment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000196",
-      "type" : "CLASS",
-      "lbl" : "low potassium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000230",
-      "meta" : {
-        "definition" : {
-          "val" : "Bacterial treatment where the bacteria are injected into the fish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "bacterial treatment by injection"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000197",
-      "type" : "CLASS",
-      "lbl" : "modified sodium composition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000114",
-      "meta" : {
-        "definition" : {
-          "val" : "Limited food availability condition in which there is no food provided.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "fasting"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000235",
-      "meta" : {
-        "definition" : {
-          "val" : "Viral treatment where the virus is injected into the fish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "viral treatment by injection"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000115",
-      "meta" : {
-        "definition" : {
-          "val" : "Food availability condition in which food is provided in limited supply.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "limited food availability"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000236",
-      "meta" : {
-        "definition" : {
-          "val" : "Xenotransplantation condition in which cancer cells are injected or grafted into the zebrafish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "cancer xenotransplantation"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000233",
-      "meta" : {
-        "definition" : {
-          "val" : "Fungal treatment where the fungus is introduced via the environment. For zebrafish this is the tank water.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "fungal treatment by exposure to environment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition where the food of the zebrafish is manipulated in some way.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "diet"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000234",
-      "meta" : {
-        "definition" : {
-          "val" : "Viral treatment where the virus is introduced via the environment. For zebrafish this is the tank water.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "viral treatment by exposure to environment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000113",
-      "meta" : {
-        "definition" : {
-          "val" : "Diet condition in which the availabity of food is manipulated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "food availability"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190",
-      "type" : "CLASS",
-      "lbl" : "ion composition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000191",
-      "type" : "CLASS",
-      "lbl" : "modified calcium composition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000194",
-      "type" : "CLASS",
-      "lbl" : "modified potassium composition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000195",
-      "type" : "CLASS",
-      "lbl" : "high potassium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000192",
-      "type" : "CLASS",
-      "lbl" : "high calcium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000193",
-      "type" : "CLASS",
-      "lbl" : "low calcium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000228",
-      "meta" : {
-        "definition" : {
-          "val" : "Low fat condition in which the amount of monounsaturated fat in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low monounsaturated fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000107",
-      "meta" : {
-        "definition" : {
-          "val" : "Biological treatment in which fish have been infected with a fungus.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "fungal treatment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "physical alteration"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000108",
-      "meta" : {
-        "definition" : {
-          "val" : "Biological treatment in which fish were raised in the absence of bacteria.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "germ free"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which the organism is treated with a microorganism.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "biological treatment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000226",
-      "meta" : {
-        "definition" : {
-          "val" : "High fat condition in which the amount of trans fat in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high trans fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106",
-      "meta" : {
-        "definition" : {
-          "val" : "Biological treatment in which fish have been infected with bacteria. This infection can be done by addition of bacteria in the water or by injection of bacteria, (for example in the brain ventricle, in the caudal vein, in the yolk sac), or ingestion, or other means.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "bacterial treatment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000227",
-      "meta" : {
-        "definition" : {
-          "val" : "Low fat condition in which the amount of saturated fat in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low saturated fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000109",
-      "meta" : {
-        "definition" : {
-          "val" : "Biological treatment in which fish have been infected with protozoa.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "protozoan treatment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condtion in which the amount of carbohydrate in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low carbohydrate"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000121",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condition in which the amount of fat in the diet is manipulated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "fat content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122",
-      "meta" : {
-        "definition" : {
-          "val" : "Fat content condition in which the amount of fat in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000243",
-      "type" : "CLASS",
-      "lbl" : "stress by handling"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condition in which the amount of carbohydrate in the diet is manipulated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "carbohydrate content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000120",
-      "meta" : {
-        "definition" : {
-          "val" : "Cholesterol content condition in which the amount of cholesterol in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low cholesterol"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condtion in which the amount of carbohydrate in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high carbohydrate"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000246",
-      "meta" : {
-        "definition" : {
-          "val" : "Housing condition in which the enclosure of the fish is undercrowded,containing a low amount of fish that increases the available space of the enclosure.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "low density",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "undercrowding"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125",
-      "meta" : {
-        "definition" : {
-          "val" : "Fat content condition in which the amount of fat in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000247",
-      "meta" : {
-        "definition" : {
-          "val" : "Food availability condition in which food is provided in increased supply.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "overfeeding",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "increased food availability"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000126",
-      "meta" : {
-        "definition" : {
-          "val" : "Low fat condition in which the amount of trans fat in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low trans fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000123",
-      "meta" : {
-        "definition" : {
-          "val" : "High fat condition in which the amount of saturated fat in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high saturated fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000244",
-      "meta" : {
-        "definition" : {
-          "val" : "Mechanical stress condition where the organism is subjected to vibrations having an ultrasonic frequency.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "ultrasound"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000124",
-      "meta" : {
-        "definition" : {
-          "val" : "High fat condition in which the amount of monounsaturated fat in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high monounsaturated fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000245",
-      "meta" : {
-        "definition" : {
-          "val" : "Physical alteration which uses light to damage the anatomical structure, cell, or organ.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "light damage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000118",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condition in which the amount of cholesterol in the diet is manipulated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "cholesterol content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000239",
-      "meta" : {
-        "definition" : {
-          "val" : "Chemical treatment condition in which the chemical is introduced through the diet.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "chemical treatment by diet"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000119",
-      "meta" : {
-        "definition" : {
-          "val" : "Cholesterol content condition in which the amount of cholesterol in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high cholesterol"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000237",
-      "meta" : {
-        "definition" : {
-          "val" : "Chemical treatment in which the chemical is injected into the zebrafish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "chemical treatment by injection"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000116",
-      "meta" : {
-        "definition" : {
-          "val" : "Food availability condition in which food is available in unlimited supply.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "unlimited food availability"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117",
-      "meta" : {
-        "definition" : {
-          "val" : "Diet condition in which the contents of the food is manipulated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "food content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000238",
-      "meta" : {
-        "definition" : {
-          "val" : "Chemical treatment condition in which the chemical is introduced through the environment. For zebrafish this is the tank water.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "chemical treatment by environment"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000253",
-      "meta" : {
-        "definition" : {
-          "val" : "Feeding regime in which food, drugs, or other substances are administered by force, typically through a tube leading down the throat to the stomach.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "gavage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/ZECO_0000103",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "standard conditions"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132",
-      "meta" : {
-        "definition" : {
-          "val" : "High carbohydrate conditions in which the amount of sugar in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high sugar"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000133",
-      "meta" : {
-        "definition" : {
-          "val" : "High sugar condition in which the amount of fructose in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high fructose"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000254",
-      "meta" : {
-        "definition" : {
-          "val" : "Bacterial treatment condition where bacteria are introduced to the organism by gavage.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "bacterial treatment by gavage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condition in which levels of a nutrient are increased relative to standard diet.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "nutrient increased"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000130",
-      "meta" : {
-        "definition" : {
-          "val" : "Protein content condition in which the protein in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low protein"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131",
-      "type" : "CLASS",
-      "lbl" : "stress"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000252",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition that manipulates the frequency or way an organism is fed.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "feeding regime"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136",
-      "meta" : {
-        "definition" : {
-          "val" : "High carbohydrate conditions in which the amount of sugar in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low sugar"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
-      "type" : "PROPERTY",
-      "lbl" : "has_exact_synonym"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000137",
-      "meta" : {
-        "definition" : {
-          "val" : "Low sugar condition in which the amount of sucrose in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low sucrose"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/ZECO_0000101",
-      "meta" : {
-        "definition" : {
-          "val" : "Condition which serves as a standard against which experimental conditions can be compared.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "control conditions"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000255",
-      "meta" : {
-        "definition" : {
-          "val" : "Chemical treatment condition where the chemical is introduced to the organism by gavage.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "chemical treatment by gavage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000134",
-      "meta" : {
-        "definition" : {
-          "val" : "High sugar condition in which the amount of glucose in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high glucose"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000256",
-      "meta" : {
-        "definition" : {
-          "val" : "Bacterial treatment where bacteria are introduced via the diet. This includes probiotic treatments.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "bacterial treatment by diet"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/ZECO_0000102",
-      "meta" : {
-        "definition" : {
-          "val" : "Control condition in which the conditions of the organism in the control experiment are not standard but are being used as the condition against which the experimental condition is compared.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "innocuous condition",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "generic control"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000135",
-      "meta" : {
-        "definition" : {
-          "val" : "High sugar condition in which the amount of sucrose in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high sucrose"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
-      "type" : "PROPERTY",
-      "lbl" : "database_cross_reference"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condition in which levels of a nutrient are decreased relative to standard diet.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "nutrient decreased"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000129",
-      "meta" : {
-        "definition" : {
-          "val" : "Protein content condition in which the protein in the diet is elevated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "high protein"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000127",
-      "meta" : {
-        "definition" : {
-          "val" : "Low fat condition in which the amount of polyunsaturated fat in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low polyunsaturated fat"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000248",
-      "meta" : {
-        "definition" : {
-          "val" : "Physical alteration which uses cold to damage an anatomical structure, cell, or organ",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "cold damage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000128",
-      "meta" : {
-        "definition" : {
-          "val" : "Food content condition in which the amount of protein in the diet is manipulated.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "protein content"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000249",
-      "meta" : {
-        "definition" : {
-          "val" : "Targetd destruction of an anatomical structure by freezing.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "cryoablation"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000143",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which components of the fish have been removed and are maintained separately.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "in vitro culture"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000144",
-      "meta" : {
-        "definition" : {
-          "val" : "In vitro culture condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "organ culture"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000141",
-      "meta" : {
-        "definition" : {
-          "val" : "Housing condition in which the roof of the enclosure if open.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "open roofed"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000142",
-      "meta" : {
-        "definition" : {
-          "val" : "Housing condition in which the enclosure of the fish is overcrowded, containing an excess of fish that reduces the available space of the enclosure.",
-          "xrefs" : [ ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "high density",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "overcrowding"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147",
-      "type" : "CLASS",
-      "lbl" : "light duration"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000148",
-      "type" : "CLASS",
-      "lbl" : "altered light dark cycle"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000145",
-      "meta" : {
-        "definition" : {
-          "val" : "In vitro culture condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "primary cell culture"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000146",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "lighting conditions"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition that manipulates the enclosure of the fish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "housing conditions"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000138",
-      "meta" : {
-        "definition" : {
-          "val" : "Low sugar condition in which the amount of fructose in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low fructose"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000139",
-      "meta" : {
-        "definition" : {
-          "val" : "Low sugar condition in which the amount of glucose in the diet is reduced.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "low glucose"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000191",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000123",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000232",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000156",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000107"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000155"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000221",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000164",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000160"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000114",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000115"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000192",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000101",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000191"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000100"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000231",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000199",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000197"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000254",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000166",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000164"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000211",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000254",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000253"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000245",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000242",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000240"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000233",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000256",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000107"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000112"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000121",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000216",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000212",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000122",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000121"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000133",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000132"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000144",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000156"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000217",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000155"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000158",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000157"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000169",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000168"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000253"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000200"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000131"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000223",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000242",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000187",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000183"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000145",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000132"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000102",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000101"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000110",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000189",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000187"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000184",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000204",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000183"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000195",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000115",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000194"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000113"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000162",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000105",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000161"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000185",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000184"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000130",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000141",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000152",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000151"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000213",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000101",
-      "pred" : "is_a",
-      "obj" : "http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000103",
       "pred" : "is_a",
-      "obj" : "http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000100"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000222",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000136",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000242"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000159",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000157"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000172",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000247",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000171"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000113"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000183",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000224",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000222"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000193",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000202",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000191"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000200"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000161",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000234",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000160"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000110"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000214",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000197",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000190"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000146",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000126",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000125"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000137",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000121"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000136"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000188",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000148",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000187"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000147"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000248",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000128",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000144",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000135",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000143"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000132"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000182",
       "pred" : "is_a",
-      "obj" : "http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000133",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000205",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000129",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000128"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000255",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000118",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000253",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000104",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000252"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000100"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000123",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000249",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000248"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000114",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000235",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000115"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000110"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000199",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000149",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000197"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000147"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000166",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000116",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000164"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000247"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000215",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000138",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000136"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000156",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000127",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000155"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000125"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000164",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000106",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000160"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000125",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000121"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000196",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000233",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000194"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000107"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000163",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000245",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000161"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000192",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000191"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000194",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000212",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000113",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000191",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000190"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000198",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000146",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000197"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000186",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000161",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000184"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000160"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000153",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000193",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000151"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000191"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000155",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000172",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000171"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000216",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000183",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000182"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000165",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000111",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000164"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000142",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000213",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000222",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000254",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000152",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000253"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000151"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000256",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000141",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000180",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000130",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000197",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000185",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000184"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000126",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000112",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000128",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000214",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000162",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000161"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000137",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000195",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000194"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000148",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000184",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000183"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000135",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000253",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000252"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000244",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000241",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000156"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000115",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000255",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000113"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000180",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000159",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000248",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000157"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000155",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000131"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000153",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000151"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000255",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000142",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000253"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000223",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000165",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000222"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000164"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000243",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000186",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000184"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000201",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000198",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000200"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000197"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000189",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000113",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000187"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000145",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000241",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000143"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000240"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000134",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000215",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000132"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000187",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000194",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000183"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000190"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000204",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000132",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000241"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000124",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000196",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000194"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000157",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000163",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000155"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000161"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000150",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000146"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000147"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000169",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000181",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000176"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000158",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000129",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000157"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000251",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000234",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000177",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000110"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000224",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000120",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000222"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000118"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000247",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000130",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000113"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000128"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000202",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000190",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000200"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000182"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000107",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000178",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000119",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000240",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000118"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000139",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000220",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000208"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000205",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000168",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000235",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000143",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000110"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000249",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000200",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000248"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000190"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000160",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000151",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000146"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000171",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000121"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000176"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000127",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000131",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000116",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000179",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000247"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000154",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000138",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000230",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000136"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000106"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000149",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000252",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000237",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000210",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000206",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000110",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000225",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000203",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000182"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000129",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000221",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000128"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000217"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000118",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000232",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000107"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000218",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000121",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000211",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000109",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000254",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000106"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000226",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000231",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000122"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000106"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000207",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000160",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000203"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000238",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000206",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000225",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000246",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000237",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000227",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000218",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000217"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000219",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000119",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000217"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000118"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000107",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000139",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000136"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000246",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000108",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000173",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000249",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000229",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000170",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000207",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000245"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000236",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000226",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000177"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000174",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000238",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000239",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000170",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000111"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000245"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000239",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000209",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000112"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000208"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000173",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000174",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000228",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000219",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000125"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000217"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000250",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000227",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000125"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000125",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000129",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000117",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000112"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000150",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000108",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000147"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000181",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000239",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000176"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000251",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000236",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000177"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000170",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000249",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000168"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000176",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000228",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000125"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000140",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000239",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000112"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000179",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000109",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000151",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000208",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000146"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000140",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000154",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000250",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000171",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000170",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000176"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000168"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000220",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000176",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000208"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000117"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000168",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000143",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000178",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000130",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000128"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000182"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000200",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000190"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000210",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000209"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000252",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000104"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000230",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000106"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000177",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000120",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000118"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     } ],
     "id" : "http://purl.obolibrary.org/obo/zeco/zeco-base.json",
     "meta" : {
@@ -2044,7 +2044,7 @@
         "val" : "Zebrafish Experimental Conditions Ontology"
       }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "Unspecified"
+        "val" : "CC-BY"
       } ],
       "version" : "http://purl.obolibrary.org/obo/zeco/releases/2019-08-02/zeco-base.json"
     },

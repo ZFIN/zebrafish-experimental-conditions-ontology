@@ -3,7 +3,7 @@ data-version: releases/2019-08-02
 ontology: zeco
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Experimental Conditions Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "Unspecified" xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 
 [Term]
 id: ZECO:0000100

@@ -4,7 +4,7 @@ subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful fo
 ontology: zeco/zeco-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Experimental Conditions Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "Unspecified" xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 
 [Term]
 id: ZECO:0000100
