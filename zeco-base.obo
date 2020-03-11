@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zeco/releases/2019-08-02/zeco-base.owl
+data-version: zeco/releases/2020-03-11/zeco-base.owl
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 ontology: zeco/zeco-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string

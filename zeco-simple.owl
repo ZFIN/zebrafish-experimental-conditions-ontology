@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco/zeco-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2019-08-02/zeco-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2020-03-11/zeco-simple.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
         <terms:license>CC-BY</terms:license>
