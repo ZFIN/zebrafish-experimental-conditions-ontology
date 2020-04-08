@@ -17,6 +17,7 @@ Import(<http://purl.obolibrary.org/obo/zeco/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zeco/src/ontology/obsolete.owl>)
 Annotation(dce:description "None")
 Annotation(dce:title "Zebrafish Experimental Conditions Ontology")
+Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "zebrafish_experimental_conditions_ontology"^^xsd:string)
 Annotation(dcterms:license "CC-BY")
 
 Declaration(Class(obo:ZECO_0000100))
