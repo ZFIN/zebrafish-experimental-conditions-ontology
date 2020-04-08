@@ -11,10 +11,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2020-03-11"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2020-04-08"/>
         <dc:description>None</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
         <terms:license>CC-BY</terms:license>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zebrafish_experimental_conditions_ontology</oboInOwl:default-namespace>
     </owl:Ontology>
     
 

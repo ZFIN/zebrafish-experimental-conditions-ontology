@@ -1,5 +1,6 @@
 format-version: 1.2
-data-version: releases/2020-03-11
+data-version: releases/2020-04-08
+default-namespace: zebrafish_experimental_conditions_ontology
 ontology: zeco
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Experimental Conditions Ontology" xsd:string
