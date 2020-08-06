@@ -3,7 +3,5 @@ WHERE {
   { ?s1 ?p1 ?term . }
   UNION
   { ?term ?p2 ?o2 . }
-  FILTER(isIRI(?term) && regex(str(?term), "http://purl.obolibrary.org/obo/ZECO_"))
+  FILTER(isIRI(?term) && (regex(str(?term), UCASE("zeco_")) || regex(str(?term), "http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_") || regex(str(?term), "http://purl.obolibrary.org/obo/ZECO_") || regex(str(?term), "http://purl.obolibrary.org/obo/zeco.owl")))
 }
-
-
