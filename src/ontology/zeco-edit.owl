@@ -17,8 +17,8 @@ Import(<http://purl.obolibrary.org/obo/zeco/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zeco/src/ontology/obsolete.owl>)
 Annotation(dce:description "None")
 Annotation(dce:title "Zebrafish Experimental Conditions Ontology")
-Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "zebrafish_experimental_conditions_ontology"^^xsd:string)
 Annotation(dcterms:license "CC-BY")
+Annotation(oboInOwl:default-namespace "zebrafish_experimental_conditions_ontology"^^xsd:string)
 
 Declaration(Class(obo:ZECO_0000100))
 Declaration(Class(obo:ZECO_0000101))
@@ -175,6 +175,12 @@ Declaration(Class(obo:ZECO_0000253))
 Declaration(Class(obo:ZECO_0000254))
 Declaration(Class(obo:ZECO_0000255))
 Declaration(Class(obo:ZECO_0000256))
+Declaration(Class(obo:ZECO_0000259))
+Declaration(Class(obo:ZECO_0000260))
+Declaration(Class(obo:ZECO_0000261))
+Declaration(Class(obo:ZECO_0000262))
+Declaration(Class(obo:ZECO_0000263))
+Declaration(Class(obo:ZECO_0000264))
 Declaration(ObjectProperty(obo:BFO_0000050))
 Declaration(ObjectProperty(obo:BFO_0000051))
 Declaration(ObjectProperty(obo:RO_0002211))
@@ -325,7 +331,7 @@ SubClassOf(obo:ZECO_0000112 obo:ZECO_0000104)
 
 # Class: obo:ZECO_0000113 (food availability)
 
-AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000113 "Diet condition in which the availabity of food is manipulated.")
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000113 "Experimental condition in which the availabity of food is manipulated.")
 AnnotationAssertion(rdfs:label obo:ZECO_0000113 "food availability"@en)
 SubClassOf(obo:ZECO_0000113 obo:ZECO_0000104)
 
@@ -568,7 +574,7 @@ SubClassOf(obo:ZECO_0000153 obo:ZECO_0000151)
 
 # Class: obo:ZECO_0000154 (gravity)
 
-AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000154 "Experimental condition in which gravity forces are applied. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.")
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000154 "Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.")
 AnnotationAssertion(rdfs:label obo:ZECO_0000154 "gravity"@en)
 SubClassOf(obo:ZECO_0000154 obo:ZECO_0000104)
 
@@ -661,7 +667,7 @@ SubClassOf(obo:ZECO_0000170 obo:ZECO_0000245)
 
 # Class: obo:ZECO_0000171 (resection)
 
-AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000171 "Surgical manipulation in which a particular organ, appendage, or part of the zebrafish is removed.")
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000171 "Surgical manipulation in which a particular organ, appendage, or part of an organism is removed.")
 AnnotationAssertion(rdfs:label obo:ZECO_0000171 "resection"@en)
 SubClassOf(obo:ZECO_0000171 obo:ZECO_0000176)
 
@@ -1101,7 +1107,7 @@ SubClassOf(obo:ZECO_0000248 obo:ZECO_0000229)
 
 # Class: obo:ZECO_0000249 (cryoablation)
 
-AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000249 "Targetd destruction of an anatomical structure by freezing.")
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000249 "Experimental condition which uses a cold instrument to ablate an anatomical structure or cell.")
 AnnotationAssertion(rdfs:label obo:ZECO_0000249 "cryoablation"@en)
 SubClassOf(obo:ZECO_0000249 obo:ZECO_0000168)
 SubClassOf(obo:ZECO_0000249 obo:ZECO_0000248)
@@ -1146,11 +1152,48 @@ SubClassOf(obo:ZECO_0000255 obo:ZECO_0000253)
 
 # Class: obo:ZECO_0000256 (bacterial treatment by diet)
 
-AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000256 "Bacterial treatment where bacteria are introduced via the diet. This includes probiotic treatments.")
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000256 "Bacterial treatment where bacteria are introduced via the diet.")
 AnnotationAssertion(rdfs:label obo:ZECO_0000256 "bacterial treatment by diet"@en)
-SubClassOf(obo:ZECO_0000256 obo:ZECO_0000112)
+SubClassOf(obo:ZECO_0000256 obo:ZECO_0000106)
+
+# Class: obo:ZECO_0000259 (cauterization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000259 "Condition that uses a cold or hot insturment, electrical current, or chemical to burn or dissolve an anatomical structure to remove or close it off.")
+AnnotationAssertion(rdfs:label obo:ZECO_0000259 "cauterization"@en)
+SubClassOf(obo:ZECO_0000259 obo:ZECO_0000229)
+
+# Class: obo:ZECO_0000260 (thermal cauterization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000260 "Cauterization of a tissue using a heated instrument.")
+AnnotationAssertion(rdfs:label obo:ZECO_0000260 "thermal cauterization"@en)
+SubClassOf(obo:ZECO_0000260 obo:ZECO_0000259)
+
+# Class: obo:ZECO_0000261 (compression injury)
+
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000261 "An injury that occurs because of pressure from a heavy object onto a body part. A compression injury may also arise from squeezing of a body part between two objects. https://www.medicinenet.com/crush_injury/definition.htm")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:ZECO_0000261 "crush injury")
+AnnotationAssertion(rdfs:label obo:ZECO_0000261 "compression injury"@en)
+SubClassOf(obo:ZECO_0000261 obo:ZECO_0000229)
+
+# Class: obo:ZECO_0000262 (probiotic content)
+
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000262 "Food content condition in which the amount of probiotics in the diet is manipulated")
+AnnotationAssertion(rdfs:label obo:ZECO_0000262 "probiotic content"@en)
+SubClassOf(obo:ZECO_0000262 obo:ZECO_0000117)
+
+# Class: obo:ZECO_0000263 (microgravity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000263 "Experimental condition in which gravity forces are smaller than in control conditions. An example of a microgravity condition would be trips to outerspace.")
+AnnotationAssertion(rdfs:label obo:ZECO_0000263 "microgravity"@en)
+SubClassOf(obo:ZECO_0000263 obo:ZECO_0000154)
+
+# Class: obo:ZECO_0000264 (increased gravity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000264 "Experimental condition in which gravity forces are greater than in control conditions. An example of an increased gravity condition would be the application of centrifugal forces.")
+AnnotationAssertion(rdfs:label obo:ZECO_0000264 "increased gravity"@en)
+SubClassOf(obo:ZECO_0000264 obo:ZECO_0000154)
 
 
-AnnotationAssertion(rdfs:comment _:genid2147483944 "https://en.wikipedia.org/wiki/Ultraviolet")
-AnnotationAssertion(oboInOwl:hasDbXref _:genid2147483945 "https://en.wikipedia.org/wiki/Ultraviolet")
+AnnotationAssertion(rdfs:comment _:genid2147483930 "https://en.wikipedia.org/wiki/Ultraviolet")
+AnnotationAssertion(oboInOwl:hasDbXref _:genid2147483931 "https://en.wikipedia.org/wiki/Ultraviolet")
 )
