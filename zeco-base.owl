@@ -12,11 +12,13 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco/zeco-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2020-04-08/zeco-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2020-11-25/zeco-base.owl"/>
         <dc:description>None</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license>CC-BY</terms:license>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zebrafish_experimental_conditions_ontology</oboInOwl:default-namespace>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-11-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -361,7 +363,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
-        <obo:IAO_0000115>Diet condition in which the availabity of food is manipulated.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experimental condition in which the availabity of food is manipulated.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">food availability</rdfs:label>
     </owl:Class>
     
@@ -768,7 +770,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
-        <obo:IAO_0000115>Experimental condition in which gravity forces are applied. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">gravity</rdfs:label>
     </owl:Class>
     
@@ -925,7 +927,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000176"/>
-        <obo:IAO_0000115>Surgical manipulation in which a particular organ, appendage, or part of the zebrafish is removed.</obo:IAO_0000115>
+        <obo:IAO_0000115>Surgical manipulation in which a particular organ, appendage, or part of an organism is removed.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">resection</rdfs:label>
     </owl:Class>
     
@@ -1686,7 +1688,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000168"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000248"/>
-        <obo:IAO_0000115>Targetd destruction of an anatomical structure by freezing.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experimental condition which uses a cold instrument to ablate an anatomical structure or cell.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cryoablation</rdfs:label>
     </owl:Class>
     
@@ -1757,9 +1759,70 @@
     <!-- http://purl.obolibrary.org/obo/ZECO_0000256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000256">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000112"/>
-        <obo:IAO_0000115>Bacterial treatment where bacteria are introduced via the diet. This includes probiotic treatments.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000106"/>
+        <obo:IAO_0000115>Bacterial treatment where bacteria are introduced via the diet.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bacterial treatment by diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000229"/>
+        <obo:IAO_0000115>Condition that uses a cold or hot insturment, electrical current, or chemical to burn or dissolve an anatomical structure to remove or close it off.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">cauterization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000259"/>
+        <obo:IAO_0000115>Cauterization of a tissue using a heated instrument.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">thermal cauterization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000229"/>
+        <obo:IAO_0000115>An injury that occurs because of pressure from a heavy object onto a body part. A compression injury may also arise from squeezing of a body part between two objects. https://www.medicinenet.com/crush_injury/definition.htm</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>crush injury</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">compression injury</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000117"/>
+        <obo:IAO_0000115>Food content condition in which the amount of probiotics in the diet is manipulated</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">probiotic content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000154"/>
+        <obo:IAO_0000115>Experimental condition in which gravity forces are smaller than in control conditions. An example of a microgravity condition would be trips to outerspace.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">microgravity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000154"/>
+        <obo:IAO_0000115>Experimental condition in which gravity forces are greater than in control conditions. An example of an increased gravity condition would be the application of centrifugal forces.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased gravity</rdfs:label>
     </owl:Class>
     <rdf:Description>
         <rdfs:comment>https://en.wikipedia.org/wiki/Ultraviolet</rdfs:comment>
