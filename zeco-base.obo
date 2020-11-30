@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zeco/releases/2020-11-25/zeco-base.owl
+data-version: zeco/releases/2020-11-30/zeco-base.owl
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 default-namespace: zebrafish_experimental_conditions_ontology
 ontology: zeco/zeco-base
@@ -7,7 +7,7 @@ property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Experimental Conditions Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
-property_value: owl:versionInfo "2020-11-25" xsd:string
+property_value: owl:versionInfo "2020-11-30" xsd:string
 
 [Term]
 id: ZECO:0000100
