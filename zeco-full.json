@@ -358,7 +358,8 @@
         "definition" : {
           "val" : "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "chemical treatment"
@@ -378,7 +379,8 @@
         "definition" : {
           "val" : "Experimental condition where the food of the zebrafish is manipulated in some way.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "diet"
@@ -398,7 +400,8 @@
         "definition" : {
           "val" : "Experimental condition in which the availabity of food is manipulated.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "food availability"
@@ -479,7 +482,8 @@
         "definition" : {
           "val" : "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "physical alteration"
@@ -511,7 +515,8 @@
         "definition" : {
           "val" : "Experimental condition in which components of the fish have been removed and are maintained separately.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "in vitro culture"
@@ -546,12 +551,17 @@
       "type" : "CLASS",
       "lbl" : "primary cell culture"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000267",
+      "type" : "PROPERTY",
+      "lbl" : "ZECO_AGR_slim"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000146",
       "meta" : {
         "definition" : {
           "val" : "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "lighting conditions"
@@ -571,7 +581,8 @@
         "definition" : {
           "val" : "Experimental condition that manipulates the enclosure of the fish.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "housing conditions"
@@ -790,6 +801,7 @@
           "val" : "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "affects",
@@ -922,6 +934,9 @@
       "lbl" : "has potential to directly develop into"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000131",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
+      },
       "type" : "CLASS",
       "lbl" : "stress"
     }, {
@@ -948,7 +963,8 @@
         "definition" : {
           "val" : "Experimental condition that manipulates the frequency or way an organism is fed.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "feeding regime"
@@ -976,6 +992,7 @@
           "val" : "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of"
@@ -1253,7 +1270,7 @@
           "val" : "x overlaps y if and only if there exists some z such that x has part z and z part of y",
           "xrefs" : [ ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/ro/subsets#ro-eco", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
           "val" : "http://purl.obolibrary.org/obo/RO_0001901"
@@ -1273,7 +1290,8 @@
         "definition" : {
           "val" : "Experimental condition in which the zebrafish is exposed to an increased or decreased temperature.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "temperature exposure"
@@ -1291,7 +1309,8 @@
         "definition" : {
           "val" : "Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "gravity"
@@ -1492,7 +1511,7 @@
           "val" : "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.",
           "xrefs" : [ ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "consumes"
@@ -1597,7 +1616,8 @@
         "definition" : {
           "val" : "Experimental condition in which a chemical or physical characteristic of water is altered.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "water quality"
@@ -1774,6 +1794,30 @@
       "type" : "CLASS",
       "lbl" : "resection"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002213",
+      "meta" : {
+        "definition" : {
+          "val" : "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0004049",
+          "val" : "http://purl.obolibrary.org/obo/RO_0002211"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Chris Mungall"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "http://purl.obolibrary.org/obo/ro/docs/causal-relations"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
+          "val" : "positively regulates (process to process)"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "positively regulates"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002334",
       "meta" : {
         "definition" : {
@@ -1791,29 +1835,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "regulated by"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002213",
-      "meta" : {
-        "definition" : {
-          "val" : "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0004049",
-          "val" : "http://purl.obolibrary.org/obo/RO_0002211"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Chris Mungall"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "http://purl.obolibrary.org/obo/ro/docs/causal-relations"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
-          "val" : "positively regulates (process to process)"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "positively regulates"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002335",
       "meta" : {
@@ -1836,6 +1857,7 @@
           "val" : "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002575",
           "val" : "http://purl.obolibrary.org/obo/RO_0002211"
@@ -1879,9 +1901,6 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "http://www.ncbi.nlm.nih.gov/pubmed/21208450"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000424",
-          "val" : "RO_0000053 some (RO_0000054 only ?Y)"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)"
         }, {
@@ -1916,9 +1935,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Chris Mungall"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000424",
-          "val" : "RO_0000053 some (RO_0000054 only (BFO_0000050 some ?Y))"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://github.com/oborel/obo-relations/wiki/ROGuide#defining-property-chains-involving-reflexivity"
@@ -1956,6 +1972,7 @@
           "val" : "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "David Hill"
@@ -1997,6 +2014,7 @@
           "val" : "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "negatively regulates (process to process)"
@@ -2020,6 +2038,7 @@
           "val" : "inverse of enables",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Chris Mungall"
@@ -2077,6 +2096,7 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002327",
       "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "is catalyzing"
@@ -2174,6 +2194,7 @@
           "val" : "a core relation that holds between a part and its whole",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_gp2term", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "part_of"
@@ -2379,6 +2400,7 @@
           "val" : "a core relation that holds between a whole and its part",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."
@@ -2701,6 +2723,7 @@
       "id" : "http://purl.obolibrary.org/obo/RO_0002304",
       "meta" : {
         "comments" : [ "holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/creator",
           "val" : "cjm"
@@ -2779,6 +2802,7 @@
           "val" : "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Chris Mungall"
@@ -2817,6 +2841,7 @@
           "xrefs" : [ ]
         },
         "comments" : [ "Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension", "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "occurs_in"
@@ -2986,6 +3011,7 @@
           "val" : "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2018-01-26T23:53:22Z"
@@ -3028,6 +3054,7 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0004032",
       "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within,_positive_effect"
@@ -3068,6 +3095,7 @@
           "val" : "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of,_positive_effect"
@@ -3087,6 +3115,7 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0004033",
       "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_gp2term" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "cjm"
@@ -3134,6 +3163,10 @@
       "id" : "http://purl.obolibrary.org/obo/GO_0016301",
       "type" : "CLASS",
       "lbl" : "kinase activity"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
       "meta" : {
@@ -3206,7 +3239,8 @@
         "definition" : {
           "val" : "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "standard conditions"
@@ -3246,7 +3280,8 @@
         "definition" : {
           "val" : "Experimental condition in which the organism is treated with a microorganism.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "biological treatment"
@@ -3298,7 +3333,8 @@
         "definition" : {
           "val" : "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "electromagnetic field"
@@ -3308,7 +3344,8 @@
         "definition" : {
           "val" : "Condition which serves as a standard against which experimental conditions can be compared.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "control conditions"
@@ -3348,6 +3385,7 @@
           "val" : "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "directly negatively regulates (process to process)"
@@ -3425,6 +3463,7 @@
           "val" : "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.",
           "xrefs" : [ ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/valid_for_go_ontology", "http://purl.obolibrary.org/obo/valid_for_gocam", "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/RO_0004049",
           "val" : "http://purl.obolibrary.org/obo/RO_0002578"
@@ -3540,6 +3579,9 @@
       "lbl" : "stable"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000208",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
+      },
       "type" : "CLASS",
       "lbl" : "radiation"
     }, {
@@ -3740,13 +3782,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0004035",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002263"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000186",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000184"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0004035",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002263"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000198",
       "pred" : "is_a",
@@ -3984,13 +4026,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000121"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000161",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000160"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000193",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000191"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000161",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000160"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000256",
       "pred" : "is_a",
@@ -4008,13 +4050,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002258"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000130",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000141",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016772",
       "pred" : "is_a",
@@ -4032,6 +4074,10 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002506"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000264",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000154"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000241",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
@@ -4039,10 +4085,6 @@
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000255",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000264",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000154"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000248",
       "pred" : "is_a",
@@ -4108,13 +4150,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002385"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002333",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000220",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002333",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000168",
       "pred" : "is_a",
@@ -4344,13 +4386,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002431"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002286",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002384"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000214",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002286",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002384"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "pred" : "inverseOf",
@@ -4416,13 +4458,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002431",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002304",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0004047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002431",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000131",
       "pred" : "is_a",
@@ -4830,21 +4872,21 @@
       "xrefs" : [ ],
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/elements/1.1/description",
-        "val" : "None"
+        "val" : "Ontology of Zebrafish Experimental Conditions"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/title",
         "val" : "Zebrafish Experimental Conditions Ontology"
       }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "CC-BY"
+        "val" : "https://creativecommons.org/licenses/by/3.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "zebrafish_experimental_conditions_ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2020-11-30"
+        "val" : "2021-06-04"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zeco/releases/2020-11-30/zeco-full.json"
+      "version" : "http://purl.obolibrary.org/obo/zeco/releases/2021-06-04/zeco-full.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
@@ -4862,8 +4904,7 @@
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002233",
-      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
-      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ]
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002211",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
@@ -4887,17 +4928,17 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
       }, {
         "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002506",
@@ -4965,11 +5006,11 @@
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
     } ],
     "propertyChainAxioms" : [ {
-      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000066",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000066", "http://purl.obolibrary.org/obo/BFO_0000050" ]
-    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002329",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002215" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000066",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000066", "http://purl.obolibrary.org/obo/BFO_0000050" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0004035",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002327", "http://purl.obolibrary.org/obo/RO_0002305" ]

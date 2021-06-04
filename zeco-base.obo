@@ -1,13 +1,14 @@
 format-version: 1.2
-data-version: zeco/releases/2020-11-30/zeco-base.owl
+data-version: zeco/releases/2021-06-04/zeco-base.owl
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
+subsetdef: ZECO:0000267 ""
 default-namespace: zebrafish_experimental_conditions_ontology
 ontology: zeco/zeco-base
-property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Ontology of Zebrafish Experimental Conditions" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Experimental Conditions Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
-property_value: owl:versionInfo "2020-11-30" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
+property_value: owl:versionInfo "2021-06-04" xsd:string
 
 [Term]
 id: ZECO:0000100
@@ -18,6 +19,7 @@ def: "The state in which an organism exists. " []
 id: ZECO:0000101
 name: control conditions
 def: "Condition which serves as a standard against which experimental conditions can be compared." []
+subset: ZECO:0000267
 is_a: ZECO:0000100 ! conditions
 
 [Term]
@@ -31,6 +33,7 @@ is_a: ZECO:0000101 ! control conditions
 id: ZECO:0000103
 name: standard conditions
 def: "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark." []
+subset: ZECO:0000267
 is_a: ZECO:0000100 ! conditions
 
 [Term]
@@ -43,6 +46,7 @@ is_a: ZECO:0000100 ! conditions
 id: ZECO:0000105
 name: biological treatment
 def: "Experimental condition in which the organism is treated with a microorganism." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -79,18 +83,21 @@ is_a: ZECO:0000105 ! biological treatment
 id: ZECO:0000111
 name: chemical treatment
 def: "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000112
 name: diet
 def: "Experimental condition where the food of the zebrafish is manipulated in some way." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000113
 name: food availability
 def: "Experimental condition in which the availabity of food is manipulated." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -202,6 +209,7 @@ is_a: ZECO:0000250 ! nutrient decreased
 [Term]
 id: ZECO:0000131
 name: stress
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -256,6 +264,7 @@ is_a: ZECO:0000136 ! low sugar
 id: ZECO:0000140
 name: housing conditions
 def: "Experimental condition that manipulates the enclosure of the fish." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -275,6 +284,7 @@ is_a: ZECO:0000140 ! housing conditions
 id: ZECO:0000143
 name: in vitro culture
 def: "Experimental condition in which components of the fish have been removed and are maintained separately." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -293,6 +303,7 @@ is_a: ZECO:0000143 ! in vitro culture
 id: ZECO:0000146
 name: lighting conditions
 def: "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -334,6 +345,7 @@ is_a: ZECO:0000151 ! light intensity
 id: ZECO:0000154
 name: gravity
 def: "Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -366,6 +378,7 @@ is_a: ZECO:0000157 ! water flow
 id: ZECO:0000160
 name: temperature exposure
 def: "Experimental condition in which the zebrafish is exposed to an increased or decreased temperature." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -487,6 +500,7 @@ is_a: ZECO:0000176 ! surgical manipulation
 id: ZECO:0000182
 name: water quality
 def: "Experimental condition in which a chemical or physical characteristic of water is altered." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -626,6 +640,7 @@ is_a: ZECO:0000203 ! water salinity
 [Term]
 id: ZECO:0000208
 name: radiation
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -701,6 +716,7 @@ is_a: ZECO:0000217 ! particle radiation
 id: ZECO:0000222
 name: electromagnetic field
 def: "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -743,6 +759,7 @@ is_a: ZECO:0000125 ! low fat
 id: ZECO:0000229
 name: physical alteration
 def: "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -886,6 +903,7 @@ is_a: ZECO:0000117 ! food content
 id: ZECO:0000252
 name: feeding regime
 def: "Experimental condition that manipulates the frequency or way an organism is fed." []
+subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
