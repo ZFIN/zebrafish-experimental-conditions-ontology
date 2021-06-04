@@ -12,12 +12,12 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2020-11-30/zeco.owl"/>
-        <dc:description>None</dc:description>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2021-06-04/zeco.owl"/>
+        <dc:description>Ontology of Zebrafish Experimental Conditions</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
-        <terms:license>CC-BY</terms:license>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zebrafish_experimental_conditions_ontology</oboInOwl:default-namespace>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-11-30</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -119,6 +119,47 @@
     <!-- http://purl.obolibrary.org/obo/RO_0040042 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040042"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZECO_0000267 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ZECO_0000267">
+        <rdfs:label xml:lang="en">ZECO_AGR_slim</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_go_annotation_extension -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_go_gp2term -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_go_gp2term">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_go_ontology -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_go_ontology">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_gocam -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_gocam">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -239,6 +280,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
@@ -300,6 +349,10 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_gp2term"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
         <rdfs:label xml:lang="en">part of</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
@@ -324,6 +377,9 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
         <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
         <rdfs:label xml:lang="en">has part</rdfs:label>
     </owl:ObjectProperty>
     
@@ -344,6 +400,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000232>Regulation precludes parthood; the regulatory process may not be within the regulated process.</obo:IAO_0000232>
         <obo:IAO_0000589>regulates (processual)</obo:IAO_0000589>
         <obo:IAO_0000600 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:IAO_0000600>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
         <rdfs:label xml:lang="en">regulates</rdfs:label>
     </owl:ObjectProperty>
     
@@ -374,6 +433,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000100"/>
         <obo:IAO_0000115>Condition which serves as a standard against which experimental conditions can be compared.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">control conditions</rdfs:label>
     </owl:Class>
     
@@ -395,6 +455,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000100"/>
         <obo:IAO_0000115>Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">standard conditions</rdfs:label>
     </owl:Class>
     
@@ -415,6 +476,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which the organism is treated with a microorganism.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">biological treatment</rdfs:label>
     </owl:Class>
     
@@ -475,6 +537,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">chemical treatment</rdfs:label>
     </owl:Class>
     
@@ -485,6 +548,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition where the food of the zebrafish is manipulated in some way.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">diet</rdfs:label>
     </owl:Class>
     
@@ -495,6 +559,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which the availabity of food is manipulated.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">food availability</rdfs:label>
     </owl:Class>
     
@@ -678,6 +743,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">stress</rdfs:label>
     </owl:Class>
     
@@ -768,6 +834,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition that manipulates the enclosure of the fish.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">housing conditions</rdfs:label>
     </owl:Class>
     
@@ -799,6 +866,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which components of the fish have been removed and are maintained separately.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">in vitro culture</rdfs:label>
     </owl:Class>
     
@@ -829,6 +897,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">lighting conditions</rdfs:label>
     </owl:Class>
     
@@ -902,6 +971,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">gravity</rdfs:label>
     </owl:Class>
     
@@ -958,6 +1028,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which the zebrafish is exposed to an increased or decreased temperature.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">temperature exposure</rdfs:label>
     </owl:Class>
     
@@ -1159,6 +1230,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which a chemical or physical characteristic of water is altered.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">water quality</rdfs:label>
     </owl:Class>
     
@@ -1402,6 +1474,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">radiation</rdfs:label>
     </owl:Class>
     
@@ -1545,6 +1618,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">electromagnetic field</rdfs:label>
     </owl:Class>
     
@@ -1615,6 +1689,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">physical alteration</rdfs:label>
     </owl:Class>
     
@@ -1850,6 +1925,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
         <obo:IAO_0000115>Experimental condition that manipulates the frequency or way an organism is fed.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">feeding regime</rdfs:label>
     </owl:Class>
     

@@ -338,7 +338,8 @@
         "definition" : {
           "val" : "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "chemical treatment"
@@ -362,7 +363,8 @@
         "definition" : {
           "val" : "Experimental condition where the food of the zebrafish is manipulated in some way.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "diet"
@@ -382,7 +384,8 @@
         "definition" : {
           "val" : "Experimental condition in which the availabity of food is manipulated.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "food availability"
@@ -478,7 +481,8 @@
         "definition" : {
           "val" : "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "physical alteration"
@@ -510,7 +514,8 @@
         "definition" : {
           "val" : "Experimental condition in which components of the fish have been removed and are maintained separately.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "in vitro culture"
@@ -550,10 +555,15 @@
         "definition" : {
           "val" : "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "lighting conditions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000267",
+      "type" : "PROPERTY",
+      "lbl" : "ZECO_AGR_slim"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000260",
       "meta" : {
@@ -564,6 +574,17 @@
       },
       "type" : "CLASS",
       "lbl" : "thermal cauterization"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ZECO_0000140",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental condition that manipulates the enclosure of the fish.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "housing conditions"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000261",
       "meta" : {
@@ -579,16 +600,6 @@
       },
       "type" : "CLASS",
       "lbl" : "compression injury"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/ZECO_0000140",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental condition that manipulates the enclosure of the fish.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "CLASS",
-      "lbl" : "housing conditions"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000262",
       "meta" : {
@@ -812,12 +823,16 @@
         "definition" : {
           "val" : "Experimental condition that manipulates the frequency or way an organism is fed.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "feeding regime"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000131",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
+      },
       "type" : "CLASS",
       "lbl" : "stress"
     }, {
@@ -964,7 +979,8 @@
         "definition" : {
           "val" : "Experimental condition in which the zebrafish is exposed to an increased or decreased temperature.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "temperature exposure"
@@ -982,7 +998,8 @@
         "definition" : {
           "val" : "Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "gravity"
@@ -1036,7 +1053,8 @@
         "definition" : {
           "val" : "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "standard conditions"
@@ -1066,7 +1084,8 @@
         "definition" : {
           "val" : "Experimental condition in which the organism is treated with a microorganism.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "biological treatment"
@@ -1148,7 +1167,8 @@
         "definition" : {
           "val" : "Condition which serves as a standard against which experimental conditions can be compared.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "control conditions"
@@ -1158,7 +1178,8 @@
         "definition" : {
           "val" : "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "electromagnetic field"
@@ -1252,7 +1273,8 @@
         "definition" : {
           "val" : "Experimental condition in which a chemical or physical characteristic of water is altered.",
           "xrefs" : [ ]
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
       },
       "type" : "CLASS",
       "lbl" : "water quality"
@@ -1417,6 +1439,9 @@
       "lbl" : "stable"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ZECO_0000208",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/ZECO_0000267" ]
+      },
       "type" : "CLASS",
       "lbl" : "radiation"
     }, {
@@ -1493,25 +1518,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000155"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000124",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000158",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000157"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000147",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000146"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000158",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000124",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000157"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000169",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000168"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000122",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000169",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000168"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000255",
       "pred" : "is_a",
@@ -1533,13 +1558,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000187",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000183"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000145",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000187",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000183"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000134",
       "pred" : "is_a",
@@ -1577,13 +1602,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000157"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000247",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000113"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000224",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000113"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000202",
       "pred" : "is_a",
@@ -1601,13 +1626,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000125"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000137",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000136"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000148",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000147"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000137",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000136"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000128",
       "pred" : "is_a",
@@ -1645,10 +1670,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000110"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000116",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000247"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000138",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000136"
@@ -1656,6 +1677,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000149",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000147"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000116",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000247"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000127",
       "pred" : "is_a",
@@ -1733,13 +1758,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000151"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000141",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000130",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000250"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000185",
       "pred" : "is_a",
@@ -1769,17 +1794,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000252"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000264",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000241",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000154"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000255",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000241",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000264",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000251"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000154"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000180",
       "pred" : "is_a",
@@ -1789,25 +1814,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000153",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000151"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000155",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000131"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000151"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000142",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000140"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000186",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000184"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000165",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000164"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000186",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000184"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000198",
       "pred" : "is_a",
@@ -1821,13 +1846,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000240"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000259",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000215",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000209"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000259",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000194",
       "pred" : "is_a",
@@ -1905,13 +1930,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000190"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000151",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000146"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000171",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000176"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000151",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000146"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000131",
       "pred" : "is_a",
@@ -1945,13 +1970,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000182"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000232",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000107"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000221",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000217"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000232",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000107"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000121",
       "pred" : "is_a",
@@ -2009,21 +2034,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000229",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000207",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000203"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000238",
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000229",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000104"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000226",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000122"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000261",
       "pred" : "is_a",
@@ -2037,13 +2062,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000208"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000219",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000217"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000174",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000229"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000217"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000227",
       "pred" : "is_a",
@@ -2065,13 +2090,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000111"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000236",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000177"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000249",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ZECO_0000168"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ZECO_0000236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ZECO_0000177"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ZECO_0000228",
       "pred" : "is_a",
@@ -2115,7 +2140,7 @@
       "xrefs" : [ ],
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/elements/1.1/description",
-        "val" : "None"
+        "val" : "Ontology of Zebrafish Experimental Conditions"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/title",
         "val" : "Zebrafish Experimental Conditions Ontology"
@@ -2124,15 +2149,15 @@
         "val" : "http://purl.obolibrary.org/obo/IAO_8000001"
       }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "CC-BY"
+        "val" : "https://creativecommons.org/licenses/by/3.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "zebrafish_experimental_conditions_ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2020-11-30"
+        "val" : "2021-06-04"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/zeco/releases/2020-11-30/zeco-base.json"
+      "version" : "http://purl.obolibrary.org/obo/zeco/releases/2021-06-04/zeco-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

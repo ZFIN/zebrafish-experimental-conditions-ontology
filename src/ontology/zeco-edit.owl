@@ -185,6 +185,7 @@ Declaration(ObjectProperty(obo:BFO_0000051))
 Declaration(ObjectProperty(obo:RO_0002211))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0100001))
+Declaration(AnnotationProperty(obo:ZECO_0000267))
 Declaration(AnnotationProperty(ubprop:_upper_level))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:license))
@@ -217,6 +218,11 @@ AnnotationAssertion(rdfs:label obo:IAO_0000115 "definition")
 # Annotation Property: obo:IAO_0100001 (term replaced by)
 
 AnnotationAssertion(rdfs:label obo:IAO_0100001 "term replaced by")
+
+# Annotation Property: obo:ZECO_0000267 (ZECO_AGR_slim)
+
+AnnotationAssertion(rdfs:label obo:ZECO_0000267 "ZECO_AGR_slim"@en)
+SubAnnotationPropertyOf(obo:ZECO_0000267 oboInOwl:SubsetProperty)
 
 # Annotation Property: ubprop:_upper_level (ubprop:_upper_level)
 
@@ -258,6 +264,7 @@ AnnotationAssertion(rdfs:label obo:ZECO_0000100 "conditions"@en)
 # Class: obo:ZECO_0000101 (control conditions)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000101 "Condition which serves as a standard against which experimental conditions can be compared.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000101 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000101 "control conditions"@en)
 SubClassOf(obo:ZECO_0000101 obo:ZECO_0000100)
 
@@ -271,6 +278,7 @@ SubClassOf(obo:ZECO_0000102 obo:ZECO_0000101)
 # Class: obo:ZECO_0000103 (standard conditions)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000103 "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000103 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000103 "standard conditions"@en)
 SubClassOf(obo:ZECO_0000103 obo:ZECO_0000100)
 
@@ -283,6 +291,7 @@ SubClassOf(obo:ZECO_0000104 obo:ZECO_0000100)
 # Class: obo:ZECO_0000105 (biological treatment)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000105 "Experimental condition in which the organism is treated with a microorganism.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000105 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000105 "biological treatment"@en)
 SubClassOf(obo:ZECO_0000105 obo:ZECO_0000104)
 
@@ -319,18 +328,21 @@ SubClassOf(obo:ZECO_0000110 obo:ZECO_0000105)
 # Class: obo:ZECO_0000111 (chemical treatment)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000111 "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000111 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000111 "chemical treatment"@en)
 SubClassOf(obo:ZECO_0000111 obo:ZECO_0000104)
 
 # Class: obo:ZECO_0000112 (diet)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000112 "Experimental condition where the food of the zebrafish is manipulated in some way.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000112 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000112 "diet"@en)
 SubClassOf(obo:ZECO_0000112 obo:ZECO_0000104)
 
 # Class: obo:ZECO_0000113 (food availability)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000113 "Experimental condition in which the availabity of food is manipulated.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000113 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000113 "food availability"@en)
 SubClassOf(obo:ZECO_0000113 obo:ZECO_0000104)
 
@@ -442,6 +454,7 @@ SubClassOf(obo:ZECO_0000130 obo:ZECO_0000250)
 
 # Class: obo:ZECO_0000131 (stress)
 
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000131 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000131 "stress"@en)
 SubClassOf(obo:ZECO_0000131 obo:ZECO_0000104)
 
@@ -496,6 +509,7 @@ SubClassOf(obo:ZECO_0000139 obo:ZECO_0000136)
 # Class: obo:ZECO_0000140 (housing conditions)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000140 "Experimental condition that manipulates the enclosure of the fish.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000140 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000140 "housing conditions"@en)
 SubClassOf(obo:ZECO_0000140 obo:ZECO_0000104)
 
@@ -515,6 +529,7 @@ SubClassOf(obo:ZECO_0000142 obo:ZECO_0000140)
 # Class: obo:ZECO_0000143 (in vitro culture)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000143 "Experimental condition in which components of the fish have been removed and are maintained separately.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000143 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000143 "in vitro culture"@en)
 SubClassOf(obo:ZECO_0000143 obo:ZECO_0000104)
 
@@ -533,6 +548,7 @@ SubClassOf(obo:ZECO_0000145 obo:ZECO_0000143)
 # Class: obo:ZECO_0000146 (lighting conditions)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000146 "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000146 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000146 "lighting conditions"@en)
 SubClassOf(obo:ZECO_0000146 obo:ZECO_0000104)
 
@@ -574,6 +590,7 @@ SubClassOf(obo:ZECO_0000153 obo:ZECO_0000151)
 # Class: obo:ZECO_0000154 (gravity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000154 "Experimental condition in which gravity forces are manipulated. For zebrafish, this can be in the form of centrifugal forces or trips to outerspace.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000154 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000154 "gravity"@en)
 SubClassOf(obo:ZECO_0000154 obo:ZECO_0000104)
 
@@ -606,6 +623,7 @@ SubClassOf(obo:ZECO_0000159 obo:ZECO_0000157)
 # Class: obo:ZECO_0000160 (temperature exposure)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000160 "Experimental condition in which the zebrafish is exposed to an increased or decreased temperature.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000160 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000160 "temperature exposure"@en)
 SubClassOf(obo:ZECO_0000160 obo:ZECO_0000104)
 
@@ -727,6 +745,7 @@ SubClassOf(obo:ZECO_0000181 obo:ZECO_0000176)
 # Class: obo:ZECO_0000182 (water quality)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000182 "Experimental condition in which a chemical or physical characteristic of water is altered.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000182 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000182 "water quality"@en)
 SubClassOf(obo:ZECO_0000182 obo:ZECO_0000104)
 
@@ -866,6 +885,7 @@ SubClassOf(obo:ZECO_0000207 obo:ZECO_0000203)
 
 # Class: obo:ZECO_0000208 (radiation)
 
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000208 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000208 "radiation"@en)
 SubClassOf(obo:ZECO_0000208 obo:ZECO_0000104)
 
@@ -941,6 +961,7 @@ SubClassOf(obo:ZECO_0000221 obo:ZECO_0000217)
 # Class: obo:ZECO_0000222 (electromagnetic field)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000222 "Experimental condition in which the fish is exposed to a physical field that is produced by electrically charged objects.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000222 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000222 "electromagnetic field"@en)
 SubClassOf(obo:ZECO_0000222 obo:ZECO_0000104)
 
@@ -983,6 +1004,7 @@ SubClassOf(obo:ZECO_0000228 obo:ZECO_0000125)
 # Class: obo:ZECO_0000229 (physical alteration)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000229 "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000229 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000229 "physical alteration"@en)
 SubClassOf(obo:ZECO_0000229 obo:ZECO_0000104)
 
@@ -1126,6 +1148,7 @@ SubClassOf(obo:ZECO_0000251 obo:ZECO_0000117)
 # Class: obo:ZECO_0000252 (feeding regime)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000252 "Experimental condition that manipulates the frequency or way an organism is fed.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000252 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000252 "feeding regime"@en)
 SubClassOf(obo:ZECO_0000252 obo:ZECO_0000104)
 
