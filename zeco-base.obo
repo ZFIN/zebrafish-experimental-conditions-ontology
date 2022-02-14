@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zeco/releases/2021-06-04/zeco-base.owl
+data-version: zeco/releases/2022-02-14/zeco-base.owl
 subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
 subsetdef: ZECO:0000267 ""
 default-namespace: zebrafish_experimental_conditions_ontology
@@ -8,7 +8,7 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology of Zebrafi
 property_value: http://purl.org/dc/elements/1.1/title "Zebrafish Experimental Conditions Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
-property_value: owl:versionInfo "2021-06-04" xsd:string
+property_value: owl:versionInfo "2022-02-14" xsd:string
 
 [Term]
 id: ZECO:0000100
@@ -40,6 +40,7 @@ is_a: ZECO:0000100 ! conditions
 id: ZECO:0000104
 name: experimental conditions
 def: "Condition in which variables of the experiment are manipulated to determine the variables effect by comparing to a control condition." []
+subset: ZECO:0000267
 is_a: ZECO:0000100 ! conditions
 
 [Term]
@@ -96,7 +97,7 @@ is_a: ZECO:0000104 ! experimental conditions
 [Term]
 id: ZECO:0000113
 name: food availability
-def: "Experimental condition in which the availabity of food is manipulated." []
+def: "Experimental condition in which the availability of food is manipulated." []
 subset: ZECO:0000267
 is_a: ZECO:0000104 ! experimental conditions
 

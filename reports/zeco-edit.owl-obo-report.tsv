@@ -1,5 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-WARN	annotation_whitespace	ZECO:0000100	IAO:0000115	The state in which an organism exists. 
 WARN	missing_definition	IAO:0000115	IAO:0000115	
 WARN	missing_definition	IAO:0100001	IAO:0000115	
 WARN	missing_definition	ZECO:0000131	IAO:0000115	
@@ -49,4 +48,5 @@ WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115
 WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115	
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115	
+WARN	annotation_whitespace	ZECO:0000100	IAO:0000115	The state in which an organism exists. 
 INFO	missing_superclass	ZECO:0000100	rdfs:subClassOf	

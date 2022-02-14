@@ -22,7 +22,6 @@ http://purl.obolibrary.org/obo/ZECO_0000115
 http://purl.obolibrary.org/obo/ZECO_0000106
 http://purl.obolibrary.org/obo/ZECO_0000110
 http://purl.obolibrary.org/obo/ZECO_0000184
-http://purl.obolibrary.org/obo/ZECO_0000214
 http://purl.obolibrary.org/obo/ZECO_0000251
 http://purl.obolibrary.org/obo/ZECO_0000121
 http://purl.obolibrary.org/obo/ZECO_0000100
@@ -56,13 +55,14 @@ http://purl.obolibrary.org/obo/ZECO_0000164
 http://purl.obolibrary.org/obo/ZECO_0000143
 http://purl.obolibrary.org/obo/ZECO_0000101
 http://purl.obolibrary.org/obo/ZECO_0000156
+http://purl.obolibrary.org/obo/ZECO_0000213
 http://purl.obolibrary.org/obo/ZECO_0000222
 http://purl.obolibrary.org/obo/ZECO_0000151
 http://purl.obolibrary.org/obo/ZECO_0000176
 http://purl.obolibrary.org/obo/ZECO_0000259
 http://purl.obolibrary.org/obo/ZECO_0000183
-http://purl.obolibrary.org/obo/ZECO_0000213
 http://purl.obolibrary.org/obo/ZECO_0000247
+http://purl.obolibrary.org/obo/ZECO_0000214
 http://purl.obolibrary.org/obo/ZECO_0000241
 http://purl.obolibrary.org/obo/ZECO_0000232
 http://purl.obolibrary.org/obo/ZECO_0000211
