@@ -12,13 +12,13 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zeco/zeco-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2021-06-04/zeco-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zeco/releases/2022-02-14/zeco-base.owl"/>
         <dc:description>Ontology of Zebrafish Experimental Conditions</dc:description>
         <dc:title>Zebrafish Experimental Conditions Ontology</dc:title>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zebrafish_experimental_conditions_ontology</oboInOwl:default-namespace>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-04</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-02-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -291,6 +291,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000100"/>
         <obo:IAO_0000115>Condition in which variables of the experiment are manipulated to determine the variables effect by comparing to a control condition.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">experimental conditions</rdfs:label>
     </owl:Class>
     
@@ -383,7 +384,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZECO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000104"/>
-        <obo:IAO_0000115>Experimental condition in which the availabity of food is manipulated.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experimental condition in which the availability of food is manipulated.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000267"/>
         <rdfs:label xml:lang="en">food availability</rdfs:label>
     </owl:Class>

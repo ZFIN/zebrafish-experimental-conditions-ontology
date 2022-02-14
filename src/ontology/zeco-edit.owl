@@ -285,6 +285,7 @@ SubClassOf(obo:ZECO_0000103 obo:ZECO_0000100)
 # Class: obo:ZECO_0000104 (experimental conditions)
 
 AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000104 "Condition in which variables of the experiment are manipulated to determine the variables effect by comparing to a control condition.")
+AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000104 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000104 "experimental conditions"@en)
 SubClassOf(obo:ZECO_0000104 obo:ZECO_0000100)
 
@@ -341,7 +342,7 @@ SubClassOf(obo:ZECO_0000112 obo:ZECO_0000104)
 
 # Class: obo:ZECO_0000113 (food availability)
 
-AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000113 "Experimental condition in which the availabity of food is manipulated.")
+AnnotationAssertion(obo:IAO_0000115 obo:ZECO_0000113 "Experimental condition in which the availability of food is manipulated.")
 AnnotationAssertion(oboInOwl:inSubset obo:ZECO_0000113 obo:ZECO_0000267)
 AnnotationAssertion(rdfs:label obo:ZECO_0000113 "food availability"@en)
 SubClassOf(obo:ZECO_0000113 obo:ZECO_0000104)
