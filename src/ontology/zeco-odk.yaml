@@ -1,6 +1,7 @@
 id: zeco
 title: "Zebrafish Experimental Conditions Ontology"
 github_org: ybradford
+git_main_branch: master
 repo: zebrafish-experimental-conditions-ontology
 report_fail_on: error
 namespaces: 
